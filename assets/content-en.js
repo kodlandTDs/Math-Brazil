@@ -1840,384 +1840,389 @@ window.COURSE = {
    "clip": "Clip",
    "tutor": "Tutor",
    "student": "Student",
-   "play": "▶ Play the clip"
+   "play": "▶ Play the clip",
+   "unavailable": "This video is not available right now."
   },
   "items": {
    "clip-explain": {
-    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
-    "start": 650,
-    "end": 856,
+    "src": "assets/video/clip-explain.mp4",
+    "start": 0.0,
+    "end": 206.0,
     "auto": true,
+    "local": true,
     "title": "Starting from the children's world: Minecraft vs Roblox",
     "focus": "Before any rule, the tutor shows the YouTube subscribers of two games the children love, asks for their opinion, and lets them discover that the bigger number wins. Then she links the skill to daily life (which shop is closer, which game you play most).",
-    "region": "Real lesson recording · Indonesia · group lesson · Level 4 · spoken in Indonesian",
+    "region": "Real lesson recording · assets/video/clip-explain.mp4 · Level 4 · spoken in Indonesian",
     "subs": [
      [
-      653.9,
-      661.9,
+      3.8999999999999773,
+      11.899999999999977,
       "T",
       "To start, here are the YouTube channels of Minecraft and Roblox."
      ],
      [
-      661.9,
-      670.9,
+      11.899999999999977,
+      20.899999999999977,
       "T",
       "Look here: these are Minecraft's subscribers."
      ],
      [
-      674.9,
-      680.9,
+      24.899999999999977,
+      30.899999999999977,
       "T",
       "Minecraft has 13.3 million subscribers."
      ],
      [
-      680.9,
-      690.9,
+      30.899999999999977,
+      40.89999999999998,
       "T",
       "A lot, right? And Roblox has 5.32 million subscribers."
      ],
      [
-      690.9,
-      697.9,
+      40.89999999999998,
+      47.89999999999998,
       "T",
       "Which one do you think is the most famous — Minecraft or Roblox?"
      ],
      [
-      697.9,
-      699.9,
+      47.89999999999998,
+      49.89999999999998,
       "S",
       "Roblox!"
      ],
      [
-      699.9,
-      701.9,
+      49.89999999999998,
+      51.89999999999998,
       "T",
       "Really?"
      ],
      [
-      711.9,
-      719.9,
+      61.89999999999998,
+      69.89999999999998,
       "T",
       "Maybe you play Roblox more often… Have you ever played Minecraft?"
      ],
      [
-      719.9,
-      725.9,
+      69.89999999999998,
+      75.89999999999998,
       "S",
       "Yes… I play it with my friends."
      ],
      [
-      751.4,
-      760.8,
+      101.39999999999998,
+      110.79999999999995,
       "T",
       "Now the question is: which channel is the most famous according to these numbers?"
      ],
      [
-      770.2,
-      784.5,
+      120.20000000000005,
+      134.5,
       "T",
       "Minecraft 13.3 million, Roblox 5.32 million. So who has more subscribers?"
      ],
      [
-      789.0,
-      793.0,
+      139.0,
+      143.0,
       "S",
       "Minecraft!"
      ],
      [
-      793.0,
-      806.0,
+      143.0,
+      156.0,
       "T",
       "Looking at the numbers, the biggest is Minecraft. You just compared numbers!"
      ],
      [
-      810.0,
-      832.5,
+      160.0,
+      182.5,
       "T",
       "When you can compare numbers, you can compare many things — which shop is closer to home, which game you play the most…"
      ],
      [
-      832.5,
-      837.0,
+      182.5,
+      187.0,
       "T",
       "Let me ask: which game do you play the most?"
      ],
      [
-      840.0,
-      845.0,
+      190.0,
+      195.0,
       "S",
       "Roblox."
      ],
      [
-      845.0,
-      855.0,
+      195.0,
+      205.0,
       "T",
       "The same! You just compared all your games — and the one you play most is Roblox."
      ]
     ]
    },
    "clip-mistake": {
-    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
-    "start": 1866,
-    "end": 1964,
+    "src": "assets/video/clip-mistake.mp4",
+    "start": 0.0,
+    "end": 98.0,
     "auto": true,
+    "local": true,
     "title": "A wrong sign: \"Let's check\" instead of \"wrong\"",
     "focus": "The student chooses the wrong sign. The tutor never says \"wrong\": she says \"let's check\", guides step by step (digits → first digit → bigger or smaller), asks \"Are you sure?\" and gives a visual hint, so the student corrects herself — then praises her.",
-    "region": "Real lesson recording · Indonesia · group lesson · Level 4 · spoken in Indonesian",
+    "region": "Real lesson recording · assets/video/clip-mistake.mp4 · Level 4 · spoken in Indonesian",
     "subs": [
      [
-      1871.3,
-      1878.0,
+      5.2999999999999545,
+      12.0,
       "T",
       "Let's start with you. Which answer is it — A or B?"
      ],
      [
-      1879.6,
-      1883.0,
+      13.599999999999909,
+      17.0,
       "S",
       "B."
      ],
      [
-      1883.7,
-      1889.1,
+      17.700000000000045,
+      23.09999999999991,
       "T",
       "B? Okay, let's check. How many digits does this number have?"
      ],
      [
-      1890.6,
-      1892.2,
+      24.59999999999991,
+      26.200000000000045,
       "S",
       "Four."
      ],
      [
-      1892.7,
-      1895.1,
+      26.700000000000045,
+      29.09999999999991,
       "T",
       "Four? And the number on the right?"
      ],
      [
-      1897.7,
-      1898.4,
+      31.700000000000045,
+      32.40000000000009,
       "S",
       "Four."
      ],
      [
-      1898.9,
-      1909.9,
+      32.90000000000009,
+      43.90000000000009,
       "T",
       "The same, so we compare the digits. The first digit: is it the same or different?"
      ],
      [
-      1910.9,
-      1911.9,
+      44.90000000000009,
+      45.90000000000009,
       "S",
       "Different."
      ],
      [
-      1912.9,
-      1917.9,
+      46.90000000000009,
+      51.90000000000009,
       "T",
       "We read from the left: is 1 bigger or smaller than 5?"
      ],
      [
-      1918.9,
-      1920.9,
+      52.90000000000009,
+      54.90000000000009,
       "S",
       "Smaller."
      ],
      [
-      1920.9,
-      1925.2,
+      54.90000000000009,
+      59.200000000000045,
       "T",
       "Then which sign is it — A or B?"
      ],
      [
-      1925.2,
-      1926.2,
+      59.200000000000045,
+      60.200000000000045,
       "S",
       "B."
      ],
      [
-      1927.2,
-      1928.6,
+      61.200000000000045,
+      62.59999999999991,
       "T",
       "Are you sure?"
      ],
      [
-      1930.2,
-      1946.6,
+      64.20000000000005,
+      80.59999999999991,
       "T",
       "Let's use our imagination: draw a line in front of it… If it is smaller, which sign is it?"
      ],
      [
-      1946.6,
-      1956.8,
+      80.59999999999991,
+      90.79999999999995,
       "S",
       "This one. Let's send it."
      ],
      [
-      1956.8,
-      1963.4,
+      90.79999999999995,
+      97.40000000000009,
       "T",
       "Good job!"
      ]
     ]
    },
    "clip-individual": {
-    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
-    "start": 3984,
-    "end": 4224,
+    "src": "assets/video/clip-individual.mp4",
+    "start": 0.0,
+    "end": 240.0,
     "auto": true,
+    "local": true,
     "title": "The individual part: clear steps, then the students work alone",
     "focus": "The tutor gives clear steps to open the task and share the screen, turns the microphones off so the students can focus, checks each screen and only reminds them of the method — she does not solve the tasks. (In Brazil the student opens Genially through the Kodland platform and clicks the green button.)",
-    "region": "Real lesson recording · Indonesia · group lesson · Level 4 · spoken in Indonesian",
+    "region": "Real lesson recording · assets/video/clip-individual.mp4 · Level 4 · spoken in Indonesian",
     "subs": [
      [
-      3987.4,
-      3995.0,
+      3.400000000000091,
+      11.0,
       "T",
       "Now the individual task. How many questions are there today?"
      ],
      [
-      3995.0,
-      4007.6,
+      11.0,
+      23.59999999999991,
       "T",
       "Seven questions. Click the assignment, then share your screen."
      ],
      [
-      4051.9,
-      4064.9,
+      67.90000000000009,
+      80.90000000000009,
       "T",
       "One student is already sharing. Let's go — open \"Comparing and ordering big numbers\"."
      ],
      [
-      4073.9,
-      4078.9,
+      89.90000000000009,
+      94.90000000000009,
       "T",
       "I'll turn off your microphones so you can focus."
      ],
      [
-      4087.0,
-      4099.0,
+      103.0,
+      115.0,
       "T",
       "If it's still loading, wait. Type the password to enter, then open the individual task."
      ],
      [
-      4106.2,
-      4109.2,
+      122.19999999999982,
+      125.19999999999982,
       "T",
       "Please share your screen again."
      ],
      [
-      4119.6,
-      4134.3,
+      135.60000000000036,
+      150.30000000000018,
       "T",
       "Click on an empty area… Okay, now send the answer at the bottom."
      ],
      [
-      4139.2,
-      4157.2,
+      155.19999999999982,
+      173.19999999999982,
       "T",
       "Let me check each of you… Let's go — click start."
      ],
      [
-      4187.1,
-      4223.4,
+      203.10000000000036,
+      239.39999999999964,
       "T",
       "Do it like before: first compare the digits; if they are the same, compare the numbers."
      ]
     ]
    },
    "clip-closing": {
-    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
-    "start": 5062,
-    "end": 5296,
+    "src": "assets/video/clip-closing.mp4",
+    "start": 0.0,
+    "end": 234.0,
     "auto": true,
+    "local": true,
     "title": "A consistent closing: feelings, review, teaser, weekly challenge",
     "focus": "The tutor asks how the tasks went and which part was hard, reassures the student, lets the children say what they learned, gives a teaser of the next lesson, reminds them of the weekly challenge (Level 4) and ends with a happy moment.",
-    "region": "Real lesson recording · Indonesia · group lesson · Level 4 · spoken in Indonesian",
+    "region": "Real lesson recording · assets/video/clip-closing.mp4 · Level 4 · spoken in Indonesian",
     "subs": [
      [
-      5064.7,
-      5077.1,
+      2.699999999999818,
+      15.100000000000364,
       "T",
       "Turn on your microphone. Were the questions easy or hard?"
      ],
      [
-      5077.1,
-      5083.0,
+      15.100000000000364,
+      21.0,
       "S",
       "Some were hard."
      ],
      [
-      5086.1,
-      5094.1,
+      24.100000000000364,
+      32.100000000000364,
       "T",
       "Which part was hard — comparing, ordering or the word problems?"
      ],
      [
-      5094.1,
-      5097.0,
+      32.100000000000364,
+      35.0,
       "S",
       "The word problems."
      ],
      [
-      5100.6,
-      5111.5,
+      38.600000000000364,
+      49.5,
       "T",
       "That's okay — we've only just started. In the next lessons you'll practise more and get used to them."
      ],
      [
-      5135.0,
-      5142.0,
+      73.0,
+      80.0,
       "T",
       "So, what did we do in today's lesson? Who remembers?"
      ],
      [
-      5142.4,
-      5144.4,
+      80.39999999999964,
+      82.39999999999964,
       "S",
       "Comparing."
      ],
      [
-      5144.4,
-      5159.8,
+      82.39999999999964,
+      97.80000000000018,
       "T",
       "Comparing — and then ordering. Comparing and ordering big numbers."
      ],
      [
-      5159.8,
-      5163.2,
+      97.80000000000018,
+      101.19999999999982,
       "T",
       "And at the end, which tasks did we do?"
      ],
      [
-      5163.3,
-      5170.3,
+      101.30000000000018,
+      108.30000000000018,
       "S",
       "Word problems."
      ],
      [
-      5170.3,
-      5178.3,
+      108.30000000000018,
+      116.30000000000018,
       "T",
       "Great! So we learned 3 things today."
      ],
      [
-      5181.3,
-      5213.3,
+      119.30000000000018,
+      151.30000000000018,
       "T",
       "Next week we'll learn to add and subtract big numbers, solve Foxy's logic puzzles and put it all together in a word problem."
      ],
      [
-      5258.4,
-      5279.9,
+      196.39999999999964,
+      217.89999999999964,
       "T",
       "For Module 1, Lesson 3 there is homework: the weekly challenge on comparing and ordering big numbers — try it for practice."
      ],
      [
-      5285.6,
-      5293.1,
+      223.60000000000036,
+      231.10000000000036,
       "T",
       "Did you enjoy the class? Show me two thumbs up!"
      ]
@@ -2225,12 +2230,13 @@ window.COURSE = {
    },
    "teach": {
     "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
-    "start": 180,
-    "end": 5346,
+    "start": 180.0,
+    "end": 5346.0,
     "auto": false,
+    "local": false,
     "title": "A full lesson: comparing and ordering big numbers",
     "focus": "A complete Level 4 lesson (a 90-minute group lesson, so longer than a Brazil 1-on-1 lesson). Follow the flow: warm opening (~3–10 min), today's goals with Foxy (~10), a real-world opener (~11–14), place value review (~14–19), the method and guided practice (~19–39), word problems (~39–52), extra logic puzzles (~52–64), an eye-exercise break (~64–66), the individual part (~66–84) and the closing with a teaser (~84–89).",
-    "region": "Real lesson recording · Indonesia · group lesson · Level 4 · spoken in Indonesian",
+    "region": "Real lesson recording · https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4 · Level 4 · spoken in Indonesian",
     "subs": []
    }
   }

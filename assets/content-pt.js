@@ -183,7 +183,7 @@ window.COURSE = {
   "simNewTab": "↗ Abrir em nova aba",
   "simDone": "✅ Concluída",
   "simTodo": "⏳ Ainda não concluída",
-  "videoNeeded": "Vídeo a gravar",
+  "videoNeeded": "Vídeo para gravar",
   "videoKey": "Espaço do vídeo"
  },
  "survey": {
@@ -266,12 +266,12 @@ window.COURSE = {
     {
      "id": "s12",
      "title": "🧩 Como uma aula é construída",
-     "html": "<p>Toda aula dos Níveis 1–4 é uma <strong>apresentação Genially</strong> guiada pela <strong>Foxy</strong>, com jogos, pausas com movimento e atividades curtas de matemática. A aula tem duas partes: primeiro vocês <strong>trabalham juntos</strong> na apresentação e, depois, o aluno faz o <strong>trabalho individual</strong> no Genially, aberto pela plataforma Kodland. Nos <strong>Níveis 1–3</strong> o ritmo é mais lento — a parte individual começa a partir da <strong>Aula 6</strong>, e antes disso a aula inteira é feita junto. No <strong>Nível 4</strong>, toda aula tem parte individual.</p>\n<p>Quatro ideias estão presentes em todas as aulas:</p>\n<p class=\"whint\">👆 Clique em cada item para abrir</p><div class=\"acc\"><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"at\">Primeiro, uma história da vida real</span><span class=\"ax\">+</span></button><div class=\"ab\">Cada aula começa com uma situação que a criança consegue imaginar: um cinema, uma praia, um parque de diversões, um passeio a um espetáculo. A história desperta o interesse e dá um motivo para a matemática; ela não serve para explicar o tema, então não pare para \"ensiná-la\".</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"at\">Concreto → Pictórico → Abstrato</span><span class=\"ax\">+</span></button><div class=\"ab\">O aluno trabalha primeiro com objetos reais ou uma situação concreta, depois com uma imagem ou modelo, e só então com a regra. Se o aluno se perder na etapa abstrata, volte uma etapa para a imagem ou os objetos.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"at\">Explicar, não apenas calcular</span><span class=\"ax\">+</span></button><div class=\"ab\">Pergunte \"Por que você escolheu essa resposta?\" e \"Como você contou?\" em todas as aulas. Crianças que explicam o próprio raciocínio lembram melhor e erram menos por distração.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"at\">Aprender brincando e se movimentando</span><span class=\"ax\">+</span></button><div class=\"ab\">Jogos, palmas, gestos e pausas com movimento mantêm os alunos pequenos atentos. Eles fazem parte do método, não são perda de tempo: uma criança que se movimenta e brinca fica com você a aula inteira.</div></div></div>\n<div class=\"tw\"><table>\n<thead>\n<tr>\n<th>Níveis</th>\n<th>Na aula</th>\n<th>Depois da aula</th>\n<th>Revisão</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1–3</td>\n<td>Trabalho individual no Genially (a partir da Aula 6)</td>\n<td>Sem lição de casa</td>\n<td>Uma missão a cada 8 aulas</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Trabalho individual no Genially (em toda aula)</td>\n<td>Um desafio semanal</td>\n<td>Aulas de revisão em cada módulo</td>\n</tr>\n</tbody>\n</table></div>"
+     "html": "<p>Toda aula dos Níveis 1–4 é uma <strong>apresentação Genially</strong> guiada pela <strong>Foxy</strong>, com jogos, pausas com movimento e atividades curtas de matemática. A aula tem duas partes: primeiro vocês <strong>trabalham juntos</strong> na apresentação e, depois, o aluno faz o <strong>trabalho individual</strong> no Genially, aberto pela plataforma Kodland. Nos <strong>Níveis 1–3</strong> o ritmo é mais lento — a parte individual começa a partir da <strong>Aula 6</strong>, e antes disso a aula inteira é feita em conjunto. No <strong>Nível 4</strong>, toda aula tem parte individual.</p>\n<p>Quatro ideias estão presentes em todas as aulas:</p>\n<p class=\"whint\">👆 Clique em cada item para abrir</p><div class=\"acc\"><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"at\">Primeiro, uma história da vida real</span><span class=\"ax\">+</span></button><div class=\"ab\">Cada aula começa com uma situação que a criança consegue imaginar: um cinema, uma praia, um parque de diversões, um passeio a um espetáculo. A história desperta o interesse e dá um motivo para a matemática; ela não serve para explicar o tema, então não pare para \"ensiná-la\".</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"at\">Concreto → Pictórico → Abstrato</span><span class=\"ax\">+</span></button><div class=\"ab\">O aluno trabalha primeiro com objetos reais ou uma situação concreta, depois com uma imagem ou modelo, e só então com a regra. Se o aluno se perder na etapa abstrata, volte uma etapa para a imagem ou os objetos.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"at\">Explicar, não apenas calcular</span><span class=\"ax\">+</span></button><div class=\"ab\">Pergunte \"Por que você escolheu essa resposta?\" e \"Como você contou?\" em todas as aulas. Crianças que explicam o próprio raciocínio lembram melhor e erram menos por distração.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"at\">Aprender brincando e se movimentando</span><span class=\"ax\">+</span></button><div class=\"ab\">Jogos, palmas, gestos e pausas com movimento mantêm os alunos pequenos atentos. Eles fazem parte do método, não são perda de tempo: uma criança que se movimenta e brinca fica com você a aula inteira.</div></div></div>\n<div class=\"tw\"><table>\n<thead>\n<tr>\n<th>Níveis</th>\n<th>Na aula</th>\n<th>Depois da aula</th>\n<th>Revisão</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1–3</td>\n<td>Trabalho individual no Genially (a partir da Aula 6)</td>\n<td>Sem lição de casa</td>\n<td>Uma missão a cada 8 aulas</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Trabalho individual no Genially (em toda aula)</td>\n<td>Um desafio semanal</td>\n<td>Aulas de revisão em cada módulo</td>\n</tr>\n</tbody>\n</table></div>"
     },
     {
      "id": "s13",
      "title": "🧭 O seu papel como tutor",
-     "html": "<p>Na aula individual, você é o guia, o parceiro e o maior apoiador do aluno. O seu trabalho não é terminar todos os slides — é garantir que o aluno entenda e saia da aula pensando <em>\"Eu consigo!\"</em>.</p>\n\n<div class=\"tiles\"><div class=\"tile\"><b>🙋 Pergunte antes de explicar</b><p>Deixe o aluno tentar primeiro, mesmo que ele seja lento ou erre. Uma criança que encontra a resposta sozinha lembra dela por muito mais tempo do que uma criança que ouviu a resposta.</p></div><div class=\"tile\"><b>🎉 Celebre o esforço, não só as respostas certas</b><p>Elogie a forma como o aluno tentou, contou ou explicou. Isso constrói a confiança de que as crianças pequenas precisam para continuar tentando quando a tarefa fica difícil.</p></div><div class=\"tile\"><b>💛 Nunca critique os erros</b><p>O erro faz parte do aprendizado. Use a regra \"Sem problema!\" (Módulo 2) e transforme cada erro em uma pergunta: \"Como você chegou nisso?\"</p></div><div class=\"tile\"><b>📋 Prepare cada aula</b><p>Leia o resumo da Wiki e percorra a apresentação inteira antes da aula. Um tutor que conhece a aula consegue prestar atenção no aluno, e não nos slides.</p></div></div>"
+     "html": "<p>Na aula individual, você é o guia, o parceiro e o maior apoiador do aluno. O seu trabalho não é terminar todos os slides — é garantir que o aluno entenda e saia da aula pensando <em>\"Eu consigo!\"</em>.</p>\n\n<div class=\"tiles\"><div class=\"tile\"><b>🙋 Pergunte antes de explicar</b><p>Deixe o aluno tentar primeiro, mesmo que ele demore um pouco ou erre. Uma criança que encontra a resposta sozinha lembra dela por muito mais tempo do que uma criança que ouviu a resposta.</p></div><div class=\"tile\"><b>🎉 Celebre o esforço, não só as respostas certas</b><p>Elogie a forma como o aluno tentou, contou ou explicou. Isso constrói a confiança de que as crianças pequenas precisam para continuar tentando quando a tarefa fica difícil.</p></div><div class=\"tile\"><b>💛 Nunca critique os erros</b><p>O erro faz parte do aprendizado. Use a regra \"Sem problema!\" (Módulo 2) e transforme cada erro em uma pergunta: \"Como você chegou nisso?\"</p></div><div class=\"tile\"><b>📋 Prepare cada aula</b><p>Leia o resumo da Wiki e passe pela apresentação inteira antes da aula. Um tutor que conhece a aula consegue prestar atenção no aluno, e não nos slides.</p></div></div>"
     },
     {
      "id": "s14",
@@ -281,12 +281,12 @@ window.COURSE = {
     {
      "id": "s15",
      "title": "🎞️ Apresentações Genially",
-     "html": "<p>Os slides do Genially usam os mesmos marcadores e botões em todas as aulas. Aprenda uma vez e você consegue conduzir qualquer aula. Passe pelos cartões — com um print quando existe, ou um desenho quando não existe.</p>\n<div class=\"game\" data-game=\"genially\"></div>"
+     "html": "<p>Os slides do Genially usam os mesmos marcadores e botões em todas as aulas. Aprenda uma vez e você consegue conduzir qualquer aula. Passe pelos cartões — com um print quando houver, ou um desenho quando não houver.</p>\n<div class=\"game\" data-game=\"genially\"></div>"
     },
     {
      "id": "s16",
      "title": "💻 Classroom, plataforma e lição de casa",
-     "html": "<p>Todas as aulas acontecem no <strong>Classroom</strong>. A parte individual acontece na <strong>plataforma Kodland</strong>, onde o aluno abre o Genially com a própria conta. Acompanhe uma aula do começo ao fim: clique em uma parada da linha para ver o que fazer, e a próxima parada aparece.</p>\n<div class=\"game\" data-game=\"classroom\"></div>\n<div class=\"ctimer\"><div class=\"ctoast t15\"><span class=\"tt\">🔔 Aviso</span><b>Faltam 15 minutos</b><p>O horário da aula acabou: comece a encerrar com calma.</p></div><div class=\"ctoast t3\"><span class=\"tt\">⏳ Aviso</span><b>Faltam 3 minutos</b><span class=\"cd\">3:00</span><p>Termine a reflexão e se despeça.</p></div><div class=\"ctoast t0\"><span class=\"tt\">⏰ Aviso</span><b>O tempo acabou</b><p>Em breve o Classroom vai fechar aqui automaticamente.</p></div></div>"
+     "html": "<p>Todas as aulas acontecem no <strong>Classroom</strong>. A parte individual acontece na <strong>plataforma Kodland</strong>, onde o aluno abre o Genially com a própria conta. Acompanhe uma aula do começo ao fim: clique em uma etapa da linha para ver o que fazer, e a próxima etapa aparece.</p>\n<div class=\"game\" data-game=\"classroom\"></div>\n<div class=\"ctimer\"><div class=\"ctoast t15\"><span class=\"tt\">🔔 Aviso</span><b>Faltam 15 minutos</b><p>O horário da aula acabou: comece a encerrar com calma.</p></div><div class=\"ctoast t3\"><span class=\"tt\">⏳ Aviso</span><b>Faltam 3 minutos</b><span class=\"cd\">3:00</span><p>Termine a reflexão e se despeça.</p></div><div class=\"ctoast t0\"><span class=\"tt\">⏰ Aviso</span><b>O tempo acabou</b><p>Em breve o Classroom vai fechar aqui automaticamente.</p></div></div>"
     },
     {
      "id": "s17",
@@ -310,17 +310,17 @@ window.COURSE = {
     {
      "id": "s21",
      "title": "🌱 Você não precisa ser matemático",
-     "html": "<p>A matemática é nova para muitos tutores da Kodland, e muitos nunca a ensinaram. Tudo bem. Os Níveis 1–4 são matemática dos primeiros anos da escola, e cada aula vem pronta: a apresentação Genially, o resumo da Wiki e as respostas nos slides. O que faz um bom tutor de matemática é conhecer bem <strong>a aula de hoje</strong>, ter <strong>curiosidade sobre como o aluno pensa</strong> e ter <strong>paciência</strong> — entender matemática leva tempo e repetição.</p>\n<p>E uma regra vale para todas as idades. Quando o aluno erra, tem dificuldade ou quer desistir, nunca usamos linguagem corretiva ou crítica. Usamos uma frase — a mesma que a Wiki sugere para a reflexão da Aula 1:</p>\n<div class=\"callout\">\n<p><em>\"Tudo bem! Às vezes, as atividades podem ser um pouco difíceis, mas, com a prática, ficam mais fáceis.\"</em></p>\n</div>"
+     "html": "<p>A matemática é novidade para muitos tutores da Kodland, e muitos nunca a ensinaram. Tudo bem. Os Níveis 1–4 são matemática dos primeiros anos da escola, e cada aula vem pronta: a apresentação Genially, o resumo da Wiki e as respostas nos slides. O que faz um bom tutor de matemática é conhecer bem <strong>a aula de hoje</strong>, ter <strong>curiosidade sobre como o aluno pensa</strong> e ter <strong>paciência</strong> — entender matemática leva tempo e repetição.</p>\n<p>E uma regra vale para todas as idades. Quando o aluno erra, tem dificuldade ou quer desistir, nunca usamos linguagem corretiva ou crítica. Usamos uma frase — a mesma que a Wiki sugere para a reflexão da Aula 1:</p>\n<div class=\"callout\">\n<p><em>\"Tudo bem! Às vezes, as atividades podem ser um pouco difíceis, mas, com a prática, ficam mais fáceis.\"</em></p>\n</div>"
     },
     {
      "id": "s22",
      "title": "🎚️ O que muda com a idade",
-     "html": "<p class=\"whint\">👆 Escolha uma faixa etária</p><div class=\"tabs\"><div class=\"tbar\"><button class=\"tb on\" data-tab=\"0\" type=\"button\"><b>5–7</b><small>Níveis 1–2</small></button><button class=\"tb\" data-tab=\"1\" type=\"button\"><b>7–10</b><small>Níveis 3–4</small></button></div><div class=\"tp on\" data-pane=\"0\">Atenção muito curta. Use expressões faciais, palmas e movimento. Dê uma instrução simples de cada vez (\"Vamos achar a caixa vermelha\"). Tudo é jogo, e a Foxy é amiga deles. Usar o mouse ou o microfone é novidade — ensine brincando e tenha paciência quando precisar de algumas tentativas.</div><div class=\"tp\" data-pane=\"1\">A idade do \"por quê?\". Pergunte \"Por que você escolheu essa resposta?\" em vez de dar a resposta. Use objetos concretos (fatias de pizza, LEGO, moedas) para ideias abstratas como valor posicional e frações. Explique a lógica de cada passo em vez de uma regra para decorar, e deixe o aluno trabalhar mais sozinho.</div></div>"
+     "html": "<p class=\"whint\">👆 Escolha uma faixa etária</p><div class=\"tabs\"><div class=\"tbar\"><button class=\"tb on\" data-tab=\"0\" type=\"button\"><b>5–7</b><small>Níveis 1–2</small></button><button class=\"tb\" data-tab=\"1\" type=\"button\"><b>7–10</b><small>Níveis 3–4</small></button></div><div class=\"tp on\" data-pane=\"0\">Atenção muito curta. Use expressões faciais, palmas e movimento. Dê uma instrução simples de cada vez (\"Vamos achar a caixa vermelha\"). Tudo é jogo, e a Foxy é amiga deles. Usar o mouse ou o microfone é novidade — ensine brincando e tenha paciência quando o aluno precisar de algumas tentativas.</div><div class=\"tp\" data-pane=\"1\">A idade do \"por quê?\". Pergunte \"Por que você escolheu essa resposta?\" em vez de dar a resposta. Use objetos concretos (fatias de pizza, LEGO, moedas) para ideias abstratas como valor posicional e frações. Explique a lógica de cada passo em vez de uma regra para decorar, e deixe o aluno trabalhar mais individualmente.</div></div>"
     },
     {
      "id": "s23",
      "title": "🧠 Como explicar uma ideia matemática",
-     "html": "<p>Use a mesma ordem do curso: <strong>Concreto → Pictórico → Abstrato</strong>, e tire os exemplos do mundo da própria criança. Passe pelos cartões — cada um é uma técnica que você pode usar na Aula 1 e em todas as aulas seguintes.</p>\n<div class=\"game\" data-game=\"explain\"></div>\n<div class=\"video\" data-video=\"clip-explain\"></div>"
+     "html": "<p>Use a mesma ordem do curso: <strong>Concreto → Pictórico → Abstrato</strong>, e traga exemplos do universo da própria criança. Passe pelos cartões — cada um é uma técnica que você pode usar na Aula 1 e em todas as aulas seguintes.</p>\n<div class=\"game\" data-game=\"explain\"></div>\n<div class=\"video\" data-video=\"clip-explain\"></div>"
     },
     {
      "id": "s24",
@@ -335,17 +335,17 @@ window.COURSE = {
     {
      "id": "s26",
      "title": "📚 Palavras de matemática para usar em aula",
-     "html": "<p>Use os mesmos termos que o aluno ouve na escola, para que a aula combine com o que ele aprende em sala. Aqui eles aparecem em três tarefas típicas — <strong>toque em cada parte destacada</strong> para ver o termo e o que ele significa.</p>\n<div class=\"game\" data-game=\"words\"></div>"
+     "html": "<p>Use os mesmos termos que o aluno ouve na escola, para que a aula esteja alinhada ao que ele aprende em sala. Aqui eles aparecem em três tarefas típicas — <strong>toque em cada parte destacada</strong> para ver o termo e o que ele significa.</p>\n<div class=\"game\" data-game=\"words\"></div>"
     },
     {
      "id": "s27",
      "title": "🚦 Antes da sua primeira aula — o seu roteiro",
-     "html": "<p>Uma aula bem preparada é uma aula divertida — para você e para o seu aluno. Siga este roteiro e lembre-se das três coisas <strong>obrigatórias antes de cada aula</strong>:</p>\n<div class=\"game\" data-game=\"roadmap\"></div>\n<p>A sua primeira parada é o <strong>cartão do grupo</strong> no BO. Ele mostra qual curso dar e quem é o seu aluno:</p>\n<div class=\"game\" data-game=\"groupcard\"></div>"
+     "html": "<p>Uma aula bem preparada é uma aula divertida — para você e para o seu aluno. Siga este roteiro e lembre-se das três coisas <strong>obrigatórias antes de cada aula</strong>:</p>\n<div class=\"game\" data-game=\"roadmap\"></div>\n<p>A sua primeira etapa é o <strong>cartão do grupo</strong> no BO. Ele mostra qual curso dar e quem é o seu aluno:</p>\n<div class=\"game\" data-game=\"groupcard\"></div>"
     },
     {
      "id": "s28",
      "title": "✅ O seu checklist da aula",
-     "html": "<div class=\"cklist\"><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span><strong>OBRIGATÓRIO:</strong> Conferi que o código do curso dos materiais é o mesmo do grupo atribuído a mim.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span><strong>OBRIGATÓRIO:</strong> Pelo menos 30 minutos antes da aula abri a apresentação, li o resumo da Wiki e resolvi todas as tarefas eu mesmo.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Sei qual é a ideia principal que o aluno precisa entender hoje e onde ele pode travar.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Tenho objetos ou um desenho prontos para a parte mais difícil.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Testei o som, os links e o login do aluno na plataforma.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Deixei o aluno tentar antes de explicar e perguntei \"Como você pensou?\" pelo menos três vezes.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Verifiquei a compreensão com uma tarefa parecida, e não só com \"Entendeu?\".</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Depois da aula, anotei o que foi difícil para o aluno, para revisar na próxima vez.</span></button></div>\n<div class=\"callout\">\n<p>Algo não está claro? <strong>O seu mentor regional de TD está pronto para ajudar</strong> — pergunte antes da aula.</p>\n</div>"
+     "html": "<div class=\"cklist\"><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span><strong>OBRIGATÓRIO:</strong> Conferi que o código do curso dos materiais é o mesmo do grupo atribuído a mim.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span><strong>OBRIGATÓRIO:</strong> Pelo menos 30 minutos antes da aula abri a apresentação, li o resumo da Wiki e resolvi todas as tarefas eu mesmo.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Sei qual é a ideia principal que o aluno precisa entender hoje e onde ele pode travar.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Tenho objetos ou um desenho prontos para a parte mais difícil.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Testei o som, os links e o login do aluno na plataforma.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Deixei o aluno tentar antes de explicar e perguntei \"Como você pensou?\" pelo menos três vezes.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Verifiquei a compreensão com uma tarefa parecida, e não só com \"Entendeu?\".</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Depois da aula, anotei o que foi difícil para o aluno, para revisar na próxima vez.</span></button></div>\n<div class=\"callout\">\n<p>Algum ponto não está claro? <strong>O seu mentor regional de TD está pronto para ajudar</strong> — pergunte antes da aula.</p>\n</div>"
     },
     {
      "id": "s29",
@@ -374,7 +374,7 @@ window.COURSE = {
    "age": "5–7",
    "color": "#F59E0B",
    "bo": "https://bo.kodland.org/courses/2249",
-   "html": "<h4 class=\"lh\">Resumo</h4>\n<div class=\"tw\"><table>\n<thead>\n<tr>\n<th>Idade</th>\n<th>Aula</th>\n<th>Aulas</th>\n<th>Formato</th>\n<th>Trabalho individual</th>\n<th>Personagem</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>5–7</td>\n<td>60 min</td>\n<td>32 (+8 no 1º tri.)</td>\n<td>Individual (1:1)</td>\n<td>A partir da Aula 6</td>\n<td>Foxy</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Sobre o curso.</strong> Um primeiro curso de matemática cheio de alegria. As crianças exploram números, contagem, comparação, adição e subtração brincando, e começam a conhecer formas, medidas, tempo, dados e padrões em situações do dia a dia. O objetivo é confiança e gosto pela matemática — sem medo de errar.</p>\n<h4 class=\"lh\">O que os alunos aprendem</h4>\n<p class=\"whint\">👆 Clique em cada item para abrir</p><div class=\"acc\"><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">1</span><span class=\"at\">Contar e comparar números</span><span class=\"ax\">+</span></button><div class=\"ab\">Contar de 0 a 20 para frente e para trás, o zero, comparar quantidades, compor números, padrões simples e palavras de posição.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">2</span><span class=\"at\">Adição e subtração</span><span class=\"ax\">+</span></button><div class=\"ab\">Até 20, números até 100, famílias de fatos, compras e orçamento e problemas de um passo.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">3</span><span class=\"at\">Geometria e medidas</span><span class=\"ax\">+</span></button><div class=\"ab\">Formas planas, medir e comparar comprimentos, mapas e orientação, dias, semanas e meses e objetos 3D.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">4</span><span class=\"at\">Padrões, lógica e pensamento matemático</span><span class=\"ax\">+</span></button><div class=\"ab\">Padrões, classificar e agrupar, o diferente do grupo, primeiros dados e gráficos e afirmações verdadeiras ou falsas.</div></div></div>\n<h4 class=\"lh\">Como é uma aula — Aula 1 \"Contando objetos e números de 0 a 10\" (tema cinema)</h4>\n<p class=\"whint\">👆 Clique em cada item para abrir</p><div class=\"acc\"><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">1</span><span class=\"at\">Objetivo principal</span><span class=\"ax\">+</span></button><div class=\"ab\">Se conhecerem e criar um clima confortável, então dê tempo suficiente para a apresentação.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">2</span><span class=\"at\">Antes da aula</span><span class=\"ax\">+</span></button><div class=\"ab\">O aluno acha 10 animais escondidos na imagem do parquinho, e a Foxy se apresenta.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">3</span><span class=\"at\">Quebra-gelo (20 min)</span><span class=\"ax\">+</span></button><div class=\"ab\">Lanche de cinema favorito, adivinhe o filme, passe o ingresso e prática de microfone: microfone desligado enquanto o \"filme\" passa, ligado quando vierem os aplausos.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">4</span><span class=\"at\">Parte principal</span><span class=\"ax\">+</span></button><div class=\"ab\">Números de 0 a 10 com objetos, o zero como a caixa de pipoca vazia, associar os pontos do ingresso ao número da poltrona, bater palmas conforme o número e pausa com movimento.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">5</span><span class=\"at\">Reflexão</span><span class=\"ax\">+</span></button><div class=\"ab\">Resumo, escolher uma \"bagagem\" que mostra como se sente e a prévia da Aula 2.</div></div></div>\n<div class=\"figone\"><figure class=\"cfig\"><img alt=\"Nível 1, Aula 1: \" dos=\"\" indica=\"\" lembrar=\"\" loading=\"lazy\" marcador=\"\" números!\"=\"\" o=\"\" obrigatório\"=\"\" slide=\"\" src=\"assets/img/pt/g-green.jpg\" vamos=\"\" verde=\"\" —=\"\"/><figcaption>Nível 1, Aula 1: \"Vamos lembrar dos números!\" — o marcador verde indica slide obrigatório</figcaption></figure></div>\n<p><strong>Lição de casa e progresso.</strong> Sem lição de casa. A partir da Aula 6, a segunda parte de cada aula é trabalho individual no Genially pela plataforma Kodland. Uma missão a cada 8 aulas verifica o que o aluno aprendeu.</p>\n<div class=\"callout status\"><p><strong>Status:</strong> 32 aulas, adaptadas do curso turco do Nível 1; mais 8 aulas serão adicionadas no 1º trimestre. As aulas estão sendo traduzidas para o português, e novas traduções são adicionadas toda semana — não se preocupe, você será avisado conforme elas ficarem disponíveis.</p>\n</div>"
+   "html": "<h4 class=\"lh\">Resumo</h4>\n<div class=\"tw\"><table>\n<thead>\n<tr>\n<th>Idade</th>\n<th>Aula</th>\n<th>Aulas</th>\n<th>Formato</th>\n<th>Trabalho individual</th>\n<th>Personagem</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>5–7</td>\n<td>60 min</td>\n<td>32 (+8 no 1º tri.)</td>\n<td>Individual (1:1)</td>\n<td>A partir da Aula 6</td>\n<td>Foxy</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Sobre o curso.</strong> Um primeiro curso de matemática leve e divertido. As crianças exploram números, contagem, comparação, adição e subtração brincando, e começam a conhecer formas, medidas, tempo, dados e padrões em situações do dia a dia. O objetivo é confiança e gosto pela matemática — sem medo de errar.</p>\n<h4 class=\"lh\">O que os alunos aprendem</h4>\n<p class=\"whint\">👆 Clique em cada item para abrir</p><div class=\"acc\"><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">1</span><span class=\"at\">Contar e comparar números</span><span class=\"ax\">+</span></button><div class=\"ab\">Contar de 0 a 20 para frente e para trás, o zero, comparar quantidades, compor números, padrões simples e noções de posição.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">2</span><span class=\"at\">Adição e subtração</span><span class=\"ax\">+</span></button><div class=\"ab\">Até 20, números até 100, famílias de operações, compras e orçamento e problemas de uma etapa.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">3</span><span class=\"at\">Geometria e medidas</span><span class=\"ax\">+</span></button><div class=\"ab\">Formas planas, medir e comparar comprimentos, mapas e orientação, dias, semanas e meses e objetos 3D.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">4</span><span class=\"at\">Padrões, lógica e pensamento matemático</span><span class=\"ax\">+</span></button><div class=\"ab\">Padrões, classificar e agrupar, o diferente do grupo, introdução a dados e gráficos e afirmações verdadeiras ou falsas.</div></div></div>\n<h4 class=\"lh\">Como é uma aula — Aula 1 \"Contando objetos e números de 0 a 10\" (tema cinema)</h4>\n<p class=\"whint\">👆 Clique em cada item para abrir</p><div class=\"acc\"><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">1</span><span class=\"at\">Objetivo principal</span><span class=\"ax\">+</span></button><div class=\"ab\">Conhecer o aluno e criar um clima confortável, reservando tempo suficiente para a apresentação.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">2</span><span class=\"at\">Antes da aula</span><span class=\"ax\">+</span></button><div class=\"ab\">O aluno acha 10 animais escondidos na imagem do parquinho, e a Foxy se apresenta.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">3</span><span class=\"at\">Quebra-gelo (20 min)</span><span class=\"ax\">+</span></button><div class=\"ab\">Lanche de cinema favorito, adivinhe o filme, passe o ingresso e prática de microfone: microfone desligado enquanto o \"filme\" passa, ligado quando vierem os aplausos.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">4</span><span class=\"at\">Parte principal</span><span class=\"ax\">+</span></button><div class=\"ab\">Números de 0 a 10 com objetos, o zero como a caixa de pipoca vazia, associar os pontos do ingresso ao número da poltrona, bater palmas conforme o número e pausa com movimento.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">5</span><span class=\"at\">Reflexão</span><span class=\"ax\">+</span></button><div class=\"ab\">Resumo, escolher uma \"bagagem\" que mostra como se sente e a prévia da Aula 2.</div></div></div>\n<div class=\"figone\"><figure class=\"cfig\"><img alt=\"Nível 1, Aula 1: \" dos=\"\" indica=\"\" lembrar=\"\" loading=\"lazy\" marcador=\"\" números!\"=\"\" o=\"\" obrigatório\"=\"\" slide=\"\" src=\"assets/img/pt/g-green.jpg\" vamos=\"\" verde=\"\" —=\"\"/><figcaption>Nível 1, Aula 1: \"Vamos lembrar dos números!\" — o marcador verde indica slide obrigatório</figcaption></figure></div>\n<p><strong>Lição de casa e progresso.</strong> Sem lição de casa. A partir da Aula 6, a segunda parte de cada aula é trabalho individual no Genially pela plataforma Kodland. Uma missão a cada 8 aulas verifica o que o aluno aprendeu.</p>\n<div class=\"callout status\"><p><strong>Status:</strong> 32 aulas, adaptadas do curso turco do Nível 1; mais 8 aulas serão adicionadas no 1º trimestre. As aulas estão sendo traduzidas para o português, e novas traduções são adicionadas toda semana — não se preocupe, você será avisado conforme elas ficarem disponíveis.</p>\n</div>"
   },
   {
    "n": 2,
@@ -383,7 +383,7 @@ window.COURSE = {
    "age": "6–8",
    "color": "#F97316",
    "bo": "https://bo.kodland.org/courses/2250",
-   "html": "<h4 class=\"lh\">Resumo</h4>\n<div class=\"tw\"><table>\n<thead>\n<tr>\n<th>Idade</th>\n<th>Aula</th>\n<th>Aulas</th>\n<th>Formato</th>\n<th>Trabalho individual</th>\n<th>Personagem</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>6–8</td>\n<td>60 min</td>\n<td>32 (+8 no 1º tri.)</td>\n<td>Individual (1:1)</td>\n<td>A partir da Aula 6</td>\n<td>Foxy</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Sobre o curso.</strong> Aprofunda o senso numérico e apresenta as quatro operações. Os alunos trabalham com números até 100, somam, subtraem e conhecem a multiplicação e a divisão, além de geometria, medidas, frações, tempo, dinheiro e dados — sempre com recursos visuais e problemas da vida real.</p>\n<h4 class=\"lh\">O que os alunos aprendem</h4>\n<p class=\"whint\">👆 Clique em cada item para abrir</p><div class=\"acc\"><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">1</span><span class=\"at\">Números e contagem de 1 a 100</span><span class=\"ax\">+</span></button><div class=\"ab\">Valor posicional (unidades e dezenas), comparar e ordenar, contagem ritmada, reta numérica, arredondar para a dezena mais próxima, números ordinais, comprimento e massa.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">2</span><span class=\"at\">Operações e pensamento algébrico</span><span class=\"ax\">+</span></button><div class=\"ab\">Adição e subtração com blocos e reta numérica, multiplicação como adição repetida (2, 3, 4, 5), repartir e agrupar, famílias de fatos e igualdade.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">3</span><span class=\"at\">Geometria e medidas</span><span class=\"ax\">+</span></button><div class=\"ab\">Formas planas e espaciais, simetria, posição e direção, trajetos, capacidade e perímetro.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">4</span><span class=\"at\">Dados e lógica</span><span class=\"ax\">+</span></button><div class=\"ab\">Relógios e calendário, frações 1/2 e 1/4, dinheiro, estimativa e cálculo mental.</div></div></div>\n<h4 class=\"lh\">Como é uma aula — primeiras aulas</h4>\n<div class=\"tw\"><table>\n<thead>\n<tr>\n<th>Aula</th>\n<th>Tema</th>\n<th>Cenário da história</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Contar até 100</td>\n<td>Parque de diversões</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Valor posicional: unidades e dezenas (material dourado)</td>\n<td>Quarto de brinquedos da Foxy</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Comparar e ordenar números (&lt;, &gt;, =)</td>\n<td>Espaço</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Lição de casa e progresso.</strong> Sem lição de casa. A partir da Aula 6, a segunda parte de cada aula é trabalho individual no Genially pela plataforma Kodland. Uma missão a cada 8 aulas verifica o que o aluno aprendeu.</p>\n<div class=\"callout status\"><p><strong>Status:</strong> 32 aulas, adaptadas do curso turco do Nível 2; mais 8 aulas serão adicionadas no 1º trimestre. As aulas estão sendo traduzidas para o português, e novas traduções são adicionadas toda semana — não se preocupe, você será avisado conforme elas ficarem disponíveis.</p>\n</div>"
+   "html": "<h4 class=\"lh\">Resumo</h4>\n<div class=\"tw\"><table>\n<thead>\n<tr>\n<th>Idade</th>\n<th>Aula</th>\n<th>Aulas</th>\n<th>Formato</th>\n<th>Trabalho individual</th>\n<th>Personagem</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>6–8</td>\n<td>60 min</td>\n<td>32 (+8 no 1º tri.)</td>\n<td>Individual (1:1)</td>\n<td>A partir da Aula 6</td>\n<td>Foxy</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Sobre o curso.</strong> Aprofunda o senso numérico e apresenta as quatro operações. Os alunos trabalham com números até 100, somam, subtraem e conhecem a multiplicação e a divisão, além de geometria, medidas, frações, tempo, dinheiro e dados — sempre com recursos visuais e problemas da vida real.</p>\n<h4 class=\"lh\">O que os alunos aprendem</h4>\n<p class=\"whint\">👆 Clique em cada item para abrir</p><div class=\"acc\"><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">1</span><span class=\"at\">Números e contagem de 1 a 100</span><span class=\"ax\">+</span></button><div class=\"ab\">Valor posicional (unidades e dezenas), comparar e ordenar, contagem saltada, reta numérica, arredondar para a dezena mais próxima, números ordinais, comprimento e massa.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">2</span><span class=\"at\">Operações e pensamento algébrico</span><span class=\"ax\">+</span></button><div class=\"ab\">Adição e subtração com blocos e reta numérica, multiplicação como adição repetida (2, 3, 4, 5), repartir e agrupar, famílias de operações e igualdade.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">3</span><span class=\"at\">Geometria e medidas</span><span class=\"ax\">+</span></button><div class=\"ab\">Formas planas e espaciais, simetria, posição e direção, trajetos, capacidade e perímetro.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">4</span><span class=\"at\">Dados e lógica</span><span class=\"ax\">+</span></button><div class=\"ab\">Relógios e calendário, frações 1/2 e 1/4, dinheiro, estimativa e cálculo mental.</div></div></div>\n<h4 class=\"lh\">Como é uma aula — primeiras aulas</h4>\n<div class=\"tw\"><table>\n<thead>\n<tr>\n<th>Aula</th>\n<th>Tema</th>\n<th>Cenário da história</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Contar até 100</td>\n<td>Parque de diversões</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Valor posicional: unidades e dezenas (material dourado)</td>\n<td>Quarto de brinquedos da Foxy</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Comparar e ordenar números (&lt;, &gt;, =)</td>\n<td>Espaço</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Lição de casa e progresso.</strong> Sem lição de casa. A partir da Aula 6, a segunda parte de cada aula é trabalho individual no Genially pela plataforma Kodland. Uma missão a cada 8 aulas verifica o que o aluno aprendeu.</p>\n<div class=\"callout status\"><p><strong>Status:</strong> 32 aulas, adaptadas do curso turco do Nível 2; mais 8 aulas serão adicionadas no 1º trimestre. As aulas estão sendo traduzidas para o português, e novas traduções são adicionadas toda semana — não se preocupe, você será avisado conforme elas ficarem disponíveis.</p>\n</div>"
   },
   {
    "n": 3,
@@ -392,7 +392,7 @@ window.COURSE = {
    "age": "7–9",
    "color": "#EF4444",
    "bo": "https://bo.kodland.org/courses/2164",
-   "html": "<h4 class=\"lh\">Resumo</h4>\n<div class=\"tw\"><table>\n<thead>\n<tr>\n<th>Idade</th>\n<th>Aula</th>\n<th>Aulas</th>\n<th>Formato</th>\n<th>Trabalho individual</th>\n<th>Personagem</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>7–9</td>\n<td>60 min</td>\n<td>32 (+8 no 1º tri.)</td>\n<td>Individual (1:1)</td>\n<td>A partir da Aula 6</td>\n<td>Foxy</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Sobre o curso.</strong> Desenvolve aritmética essencial, frações, decimais e geometria com aulas interativas e exemplos da vida real. Combate a ideia de que \"matemática é difícil demais\" e desenvolve o pensamento lógico e analítico para a escola e além. Os slides do Nível 3 têm muito áudio — confira se o compartilhamento de som está ativado no Classroom.</p>\n<h4 class=\"lh\">O que os alunos aprendem</h4>\n<p class=\"whint\">👆 Clique em cada item para abrir</p><div class=\"acc\"><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">1</span><span class=\"at\">Bases do trabalho com números</span><span class=\"ax\">+</span></button><div class=\"ab\">Números de três algarismos, valor posicional e contagem ritmada até 1.000.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">2</span><span class=\"at\">Operações com números e frações</span><span class=\"ax\">+</span></button><div class=\"ab\">As quatro operações e as primeiras frações.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">3</span><span class=\"at\">Geometria e unidades de medida</span><span class=\"ax\">+</span></button><div class=\"ab\">Formas, simetria e medidas.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">4</span><span class=\"at\">Trabalhando com dados</span><span class=\"ax\">+</span></button><div class=\"ab\">Coletar, ler e mostrar dados simples.</div></div></div>\n<h4 class=\"lh\">Como é uma aula — primeiras aulas</h4>\n<div class=\"tw\"><table>\n<thead>\n<tr>\n<th>Aula</th>\n<th>Tema</th>\n<th>Cenário da história</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Ler e escrever números de três algarismos</td>\n<td>Passeio para um espetáculo</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Contagem ritmada até 1.000</td>\n<td>Futebol, cofrinho, jogos</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Valor posicional em números de três algarismos</td>\n<td>LEGO e estádio</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Lição de casa e progresso.</strong> Sem lição de casa. A partir da Aula 6, a segunda parte de cada aula é trabalho individual no Genially pela plataforma Kodland. Uma missão a cada 8 aulas verifica o que o aluno aprendeu.</p>\n<div class=\"callout status\"><p><strong>Status:</strong> 32 aulas, adaptadas do curso turco do Nível 3; mais 8 aulas serão adicionadas no 1º trimestre. As aulas estão sendo traduzidas para o português, e novas traduções são adicionadas toda semana — não se preocupe, você será avisado conforme elas ficarem disponíveis.</p>\n</div>"
+   "html": "<h4 class=\"lh\">Resumo</h4>\n<div class=\"tw\"><table>\n<thead>\n<tr>\n<th>Idade</th>\n<th>Aula</th>\n<th>Aulas</th>\n<th>Formato</th>\n<th>Trabalho individual</th>\n<th>Personagem</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>7–9</td>\n<td>60 min</td>\n<td>32 (+8 no 1º tri.)</td>\n<td>Individual (1:1)</td>\n<td>A partir da Aula 6</td>\n<td>Foxy</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Sobre o curso.</strong> Desenvolve aritmética essencial, frações, decimais e geometria com aulas interativas e exemplos da vida real. Combate a ideia de que \"matemática é difícil demais\" e desenvolve o pensamento lógico e analítico para a escola e para o dia a dia. Os slides do Nível 3 têm muito áudio — confira se o compartilhamento de som está ativado no Classroom.</p>\n<h4 class=\"lh\">O que os alunos aprendem</h4>\n<p class=\"whint\">👆 Clique em cada item para abrir</p><div class=\"acc\"><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">1</span><span class=\"at\">Bases do trabalho com números</span><span class=\"ax\">+</span></button><div class=\"ab\">Números de três algarismos, valor posicional e contagem saltada até 1.000.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">2</span><span class=\"at\">Operações com números e frações</span><span class=\"ax\">+</span></button><div class=\"ab\">As quatro operações e introdução às frações.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">3</span><span class=\"at\">Geometria e unidades de medida</span><span class=\"ax\">+</span></button><div class=\"ab\">Formas, simetria e medidas.</div></div><div class=\"ai\"><button class=\"ah\" type=\"button\"><span class=\"an\">4</span><span class=\"at\">Trabalhando com dados</span><span class=\"ax\">+</span></button><div class=\"ab\">Coletar, ler e representar dados simples.</div></div></div>\n<h4 class=\"lh\">Como é uma aula — primeiras aulas</h4>\n<div class=\"tw\"><table>\n<thead>\n<tr>\n<th>Aula</th>\n<th>Tema</th>\n<th>Cenário da história</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Ler e escrever números de três algarismos</td>\n<td>Passeio para um espetáculo</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Contagem ritmada até 1.000</td>\n<td>Futebol, cofrinho, jogos</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Valor posicional em números de três algarismos</td>\n<td>LEGO e estádio</td>\n</tr>\n</tbody>\n</table></div>\n<p><strong>Lição de casa e progresso.</strong> Sem lição de casa. A partir da Aula 6, a segunda parte de cada aula é trabalho individual no Genially pela plataforma Kodland. Uma missão a cada 8 aulas verifica o que o aluno aprendeu.</p>\n<div class=\"callout status\"><p><strong>Status:</strong> 32 aulas, adaptadas do curso turco do Nível 3; mais 8 aulas serão adicionadas no 1º trimestre. As aulas estão sendo traduzidas para o português, e novas traduções são adicionadas toda semana — não se preocupe, você será avisado conforme elas ficarem disponíveis.</p>\n</div>"
   },
   {
    "n": 4,
@@ -1399,9 +1399,9 @@ window.COURSE = {
   },
   "classroom": {
    "ui": {
-    "start": "👆 Clique na primeira parada para começar",
-    "next": "Próxima parada →",
-    "done": "✅ Você percorreu uma aula inteira no Classroom.",
+    "start": "👆 Clique na primeira etapa para começar",
+    "next": "Próxima etapa →",
+    "done": "✅ Você passou por uma aula inteira no Classroom.",
     "again": "↺ Começar de novo"
    },
    "stops": [
@@ -1562,7 +1562,7 @@ window.COURSE = {
      ],
      [
       "🙋",
-      "Algo não está claro? <b>O seu mentor de TD está pronto para ajudar</b> — pergunte antes da aula."
+      "Algum ponto não está claro? <b>O seu mentor de TD está pronto para ajudar</b> — pergunte antes da aula."
      ]
     ]
    }
@@ -1675,7 +1675,7 @@ window.COURSE = {
      "tag": "1 · Preparação",
      "img": "assets/img/pt/g-green.jpg",
      "title": "Prepare-se pelo menos 1 dia antes",
-     "text": "Antes de o curso começar, percorra a apresentação Genially inteira, resolva todas as tarefas e leia o resumo da aula na Wiki. O plano precisa estar 100% claro para você.",
+     "text": "Antes de o curso começar, passe pela apresentação Genially inteira, resolva todas as tarefas e leia o resumo da aula na Wiki. O plano precisa estar 100% claro para você.",
      "say": "Abrir a apresentação pela primeira vez durante a aula."
     },
     {
@@ -1840,384 +1840,389 @@ window.COURSE = {
    "clip": "Trecho",
    "tutor": "Tutor",
    "student": "Aluno(a)",
-   "play": "▶ Assistir ao trecho"
+   "play": "▶ Assistir ao trecho",
+   "unavailable": "Este vídeo não está disponível no momento."
   },
   "items": {
    "clip-explain": {
-    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
-    "start": 650,
-    "end": 856,
+    "src": "assets/video/clip-explain.mp4",
+    "start": 0.0,
+    "end": 206.0,
     "auto": true,
+    "local": true,
     "title": "Começar pelo mundo das crianças: Minecraft x Roblox",
     "focus": "Antes de qualquer regra, a tutora mostra os inscritos no YouTube de dois jogos que as crianças adoram, pede a opinião delas e deixa que descubram que o número maior ganha. Depois liga a habilidade ao dia a dia (qual loja fica mais perto, qual jogo vocês mais jogam).",
-    "region": "Gravação de aula real · Indonésia · aula em grupo · Nível 4 · falada em indonésio",
+    "region": "Gravação de aula real · assets/video/clip-explain.mp4 · Nível 4 · falada em indonésio",
     "subs": [
      [
-      653.9,
-      661.9,
+      3.8999999999999773,
+      11.899999999999977,
       "T",
       "Para começar, aqui estão os canais do YouTube do Minecraft e do Roblox."
      ],
      [
-      661.9,
-      670.9,
+      11.899999999999977,
+      20.899999999999977,
       "T",
       "Olhem aqui: estes são os inscritos do Minecraft."
      ],
      [
-      674.9,
-      680.9,
+      24.899999999999977,
+      30.899999999999977,
       "T",
       "O Minecraft tem 13,3 milhões de inscritos."
      ],
      [
-      680.9,
-      690.9,
+      30.899999999999977,
+      40.89999999999998,
       "T",
       "Bastante, né? E o Roblox tem 5,32 milhões de inscritos."
      ],
      [
-      690.9,
-      697.9,
+      40.89999999999998,
+      47.89999999999998,
       "T",
       "Qual vocês acham que é o mais famoso — Minecraft ou Roblox?"
      ],
      [
-      697.9,
-      699.9,
+      47.89999999999998,
+      49.89999999999998,
       "S",
       "Roblox!"
      ],
      [
-      699.9,
-      701.9,
+      49.89999999999998,
+      51.89999999999998,
       "T",
       "Sério?"
      ],
      [
-      711.9,
-      719.9,
+      61.89999999999998,
+      69.89999999999998,
       "T",
       "Talvez vocês joguem mais Roblox… Você já jogou Minecraft?"
      ],
      [
-      719.9,
-      725.9,
+      69.89999999999998,
+      75.89999999999998,
       "S",
       "Já… eu jogo com meus amigos."
      ],
      [
-      751.4,
-      760.8,
+      101.39999999999998,
+      110.79999999999995,
       "T",
       "Agora a pergunta é: qual canal é o mais famoso de acordo com estes números?"
      ],
      [
-      770.2,
-      784.5,
+      120.20000000000005,
+      134.5,
       "T",
       "Minecraft 13,3 milhões, Roblox 5,32 milhões. Então, quem tem mais inscritos?"
      ],
      [
-      789.0,
-      793.0,
+      139.0,
+      143.0,
       "S",
       "Minecraft!"
      ],
      [
-      793.0,
-      806.0,
+      143.0,
+      156.0,
       "T",
       "Olhando os números, o maior é o Minecraft. Vocês acabaram de comparar números!"
      ],
      [
-      810.0,
-      832.5,
+      160.0,
+      182.5,
       "T",
       "Quando vocês sabem comparar números, dá para comparar muitas coisas — qual loja fica mais perto de casa, qual jogo vocês mais jogam…"
      ],
      [
-      832.5,
-      837.0,
+      182.5,
+      187.0,
       "T",
       "Deixa eu perguntar: qual jogo vocês mais jogam?"
      ],
      [
-      840.0,
-      845.0,
+      190.0,
+      195.0,
       "S",
       "Roblox."
      ],
      [
-      845.0,
-      855.0,
+      195.0,
+      205.0,
       "T",
       "Igual! Vocês acabaram de comparar todos os jogos — e o que mais jogam é o Roblox."
      ]
     ]
    },
    "clip-mistake": {
-    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
-    "start": 1866,
-    "end": 1964,
+    "src": "assets/video/clip-mistake.mp4",
+    "start": 0.0,
+    "end": 98.0,
     "auto": true,
+    "local": true,
     "title": "Um sinal errado: \"vamos conferir\" em vez de \"errado\"",
     "focus": "A aluna escolhe o sinal errado. A tutora nunca diz \"errado\": diz \"vamos conferir\", guia passo a passo (algarismos → primeiro algarismo → maior ou menor), pergunta \"Tem certeza?\" e dá uma pista visual, para a aluna se corrigir sozinha — e depois elogia.",
-    "region": "Gravação de aula real · Indonésia · aula em grupo · Nível 4 · falada em indonésio",
+    "region": "Gravação de aula real · assets/video/clip-mistake.mp4 · Nível 4 · falada em indonésio",
     "subs": [
      [
-      1871.3,
-      1878.0,
+      5.2999999999999545,
+      12.0,
       "T",
       "Vamos começar com você. Qual é a resposta — A ou B?"
      ],
      [
-      1879.6,
-      1883.0,
+      13.599999999999909,
+      17.0,
       "S",
       "B."
      ],
      [
-      1883.7,
-      1889.1,
+      17.700000000000045,
+      23.09999999999991,
       "T",
       "B? Tá bom, vamos conferir. Quantos algarismos tem este número?"
      ],
      [
-      1890.6,
-      1892.2,
+      24.59999999999991,
+      26.200000000000045,
       "S",
       "Quatro."
      ],
      [
-      1892.7,
-      1895.1,
+      26.700000000000045,
+      29.09999999999991,
       "T",
       "Quatro? E o número da direita?"
      ],
      [
-      1897.7,
-      1898.4,
+      31.700000000000045,
+      32.40000000000009,
       "S",
       "Quatro."
      ],
      [
-      1898.9,
-      1909.9,
+      32.90000000000009,
+      43.90000000000009,
       "T",
       "Igual, então comparamos os algarismos. O primeiro algarismo: é igual ou diferente?"
      ],
      [
-      1910.9,
-      1911.9,
+      44.90000000000009,
+      45.90000000000009,
       "S",
       "Diferente."
      ],
      [
-      1912.9,
-      1917.9,
+      46.90000000000009,
+      51.90000000000009,
       "T",
       "Lemos da esquerda: o 1 é maior ou menor que o 5?"
      ],
      [
-      1918.9,
-      1920.9,
+      52.90000000000009,
+      54.90000000000009,
       "S",
       "Menor."
      ],
      [
-      1920.9,
-      1925.2,
+      54.90000000000009,
+      59.200000000000045,
       "T",
       "Então qual é o sinal — A ou B?"
      ],
      [
-      1925.2,
-      1926.2,
+      59.200000000000045,
+      60.200000000000045,
       "S",
       "B."
      ],
      [
-      1927.2,
-      1928.6,
+      61.200000000000045,
+      62.59999999999991,
       "T",
       "Tem certeza?"
      ],
      [
-      1930.2,
-      1946.6,
+      64.20000000000005,
+      80.59999999999991,
       "T",
       "Vamos usar a imaginação: desenhe uma linha na frente… Se é menor, qual é o sinal?"
      ],
      [
-      1946.6,
-      1956.8,
+      80.59999999999991,
+      90.79999999999995,
       "S",
       "Este. Vamos enviar."
      ],
      [
-      1956.8,
-      1963.4,
+      90.79999999999995,
+      97.40000000000009,
       "T",
       "Muito bem!"
      ]
     ]
    },
    "clip-individual": {
-    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
-    "start": 3984,
-    "end": 4224,
+    "src": "assets/video/clip-individual.mp4",
+    "start": 0.0,
+    "end": 240.0,
     "auto": true,
+    "local": true,
     "title": "A parte individual: passos claros, depois os alunos trabalham sozinhos",
     "focus": "A tutora dá passos claros para abrir a tarefa e compartilhar a tela, desliga os microfones para os alunos se concentrarem, confere cada tela e só relembra o método — ela não resolve as tarefas. (No Brasil, o aluno abre o Genially pela plataforma Kodland e clica no botão verde.)",
-    "region": "Gravação de aula real · Indonésia · aula em grupo · Nível 4 · falada em indonésio",
+    "region": "Gravação de aula real · assets/video/clip-individual.mp4 · Nível 4 · falada em indonésio",
     "subs": [
      [
-      3987.4,
-      3995.0,
+      3.400000000000091,
+      11.0,
       "T",
       "Agora a tarefa individual. Quantas questões tem hoje?"
      ],
      [
-      3995.0,
-      4007.6,
+      11.0,
+      23.59999999999991,
       "T",
       "Sete questões. Cliquem na tarefa e depois compartilhem a tela."
      ],
      [
-      4051.9,
-      4064.9,
+      67.90000000000009,
+      80.90000000000009,
       "T",
       "Uma aluna já está compartilhando a tela. Vamos lá — abram \"Comparar e ordenar números grandes\"."
      ],
      [
-      4073.9,
-      4078.9,
+      89.90000000000009,
+      94.90000000000009,
       "T",
       "Vou desligar os microfones de vocês para vocês se concentrarem."
      ],
      [
-      4087.0,
-      4099.0,
+      103.0,
+      115.0,
       "T",
       "Se ainda estiver carregando, esperem. Digitem a senha para entrar e abram a tarefa individual."
      ],
      [
-      4106.2,
-      4109.2,
+      122.19999999999982,
+      125.19999999999982,
       "T",
       "Compartilhe a tela de novo, por favor."
      ],
      [
-      4119.6,
-      4134.3,
+      135.60000000000036,
+      150.30000000000018,
       "T",
       "Clique numa área vazia… Isso, agora envie a resposta embaixo."
      ],
      [
-      4139.2,
-      4157.2,
+      155.19999999999982,
+      173.19999999999982,
       "T",
       "Deixa eu conferir cada um… Vamos lá — clique em começar."
      ],
      [
-      4187.1,
-      4223.4,
+      203.10000000000036,
+      239.39999999999964,
       "T",
       "Façam como antes: primeiro comparem os algarismos; se forem iguais, comparem os números."
      ]
     ]
    },
    "clip-closing": {
-    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
-    "start": 5062,
-    "end": 5296,
+    "src": "assets/video/clip-closing.mp4",
+    "start": 0.0,
+    "end": 234.0,
     "auto": true,
+    "local": true,
     "title": "Um fechamento consistente: sentimentos, revisão, gostinho da próxima aula, desafio semanal",
     "focus": "A tutora pergunta como foram as tarefas e qual parte foi difícil, tranquiliza a aluna, deixa as crianças dizerem o que aprenderam, conta um gostinho da próxima aula, lembra o desafio semanal (Nível 4) e termina com um momento feliz.",
-    "region": "Gravação de aula real · Indonésia · aula em grupo · Nível 4 · falada em indonésio",
+    "region": "Gravação de aula real · assets/video/clip-closing.mp4 · Nível 4 · falada em indonésio",
     "subs": [
      [
-      5064.7,
-      5077.1,
+      2.699999999999818,
+      15.100000000000364,
       "T",
       "Ligue o microfone. As questões foram fáceis ou difíceis?"
      ],
      [
-      5077.1,
-      5083.0,
+      15.100000000000364,
+      21.0,
       "S",
       "Algumas foram difíceis."
      ],
      [
-      5086.1,
-      5094.1,
+      24.100000000000364,
+      32.100000000000364,
       "T",
       "Qual parte foi difícil — comparar, ordenar ou os problemas?"
      ],
      [
-      5094.1,
-      5097.0,
+      32.100000000000364,
+      35.0,
       "S",
       "Os problemas."
      ],
      [
-      5100.6,
-      5111.5,
+      38.600000000000364,
+      49.5,
       "T",
       "Tudo bem — a gente acabou de começar. Nas próximas aulas vocês vão praticar mais e se acostumar."
      ],
      [
-      5135.0,
-      5142.0,
+      73.0,
+      80.0,
       "T",
       "Então, o que fizemos na aula de hoje? Quem lembra?"
      ],
      [
-      5142.4,
-      5144.4,
+      80.39999999999964,
+      82.39999999999964,
       "S",
       "Comparar."
      ],
      [
-      5144.4,
-      5159.8,
+      82.39999999999964,
+      97.80000000000018,
       "T",
       "Comparar — e depois ordenar. Comparar e ordenar números grandes."
      ],
      [
-      5159.8,
-      5163.2,
+      97.80000000000018,
+      101.19999999999982,
       "T",
       "E no final, que tarefas fizemos?"
      ],
      [
-      5163.3,
-      5170.3,
+      101.30000000000018,
+      108.30000000000018,
       "S",
       "Problemas."
      ],
      [
-      5170.3,
-      5178.3,
+      108.30000000000018,
+      116.30000000000018,
       "T",
       "Ótimo! Então aprendemos 3 coisas hoje."
      ],
      [
-      5181.3,
-      5213.3,
+      119.30000000000018,
+      151.30000000000018,
       "T",
       "Na semana que vem vamos aprender a somar e subtrair números grandes, resolver os quebra-cabeças de lógica da Foxy e juntar tudo em um problema."
      ],
      [
-      5258.4,
-      5279.9,
+      196.39999999999964,
+      217.89999999999964,
       "T",
       "Para o Módulo 1, Aula 3, tem lição de casa: o desafio semanal de comparar e ordenar números grandes — tentem fazer para praticar."
      ],
      [
-      5285.6,
-      5293.1,
+      223.60000000000036,
+      231.10000000000036,
       "T",
       "Gostaram da aula? Mostrem os dois polegares para cima!"
      ]
@@ -2225,12 +2230,13 @@ window.COURSE = {
    },
    "teach": {
     "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
-    "start": 180,
-    "end": 5346,
+    "start": 180.0,
+    "end": 5346.0,
     "auto": false,
+    "local": false,
     "title": "Uma aula completa: comparar e ordenar números grandes",
     "focus": "Uma aula completa do Nível 4 (uma aula em grupo de 90 minutos, mais longa que a aula individual do Brasil). Acompanhe o fluxo: abertura acolhedora (~3–10 min), objetivos do dia com a Foxy (~10), uma abertura com o mundo real (~11–14), revisão de valor posicional (~14–19), o método e a prática guiada (~19–39), problemas (~39–52), quebra-cabeças de lógica extras (~52–64), uma pausa com ginástica para os olhos (~64–66), a parte individual (~66–84) e o fechamento com um gostinho da próxima aula (~84–89).",
-    "region": "Gravação de aula real · Indonésia · aula em grupo · Nível 4 · falada em indonésio",
+    "region": "Gravação de aula real · https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4 · Nível 4 · falada em indonésio",
     "subs": []
    }
   }
