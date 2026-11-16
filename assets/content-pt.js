@@ -177,7 +177,7 @@ window.COURSE = {
   },
   "videoSoon": "A gravação da aula será adicionada aqui em breve.",
   "videoLabel": "Gravação de aula",
-  "lockSims": "🔒 Conclua as simulações acima para liberar a verificação do módulo: {list}.",
+  "lockSims": "🔒 Conclua estas etapas do módulo para liberar a verificação: {list}.",
   "simOpen": "▶ Abrir a simulação",
   "simClose": "✕ Fechar a simulação",
   "simNewTab": "↗ Abrir em nova aba",
@@ -287,7 +287,15 @@ window.COURSE = {
      "id": "s16",
      "title": "💻 Classroom, plataforma e lição de casa",
      "html": "<p>Todas as aulas acontecem no <strong>Classroom</strong>. A parte individual acontece na <strong>plataforma Kodland</strong>, onde o aluno abre o Genially com a própria conta. Acompanhe uma aula do começo ao fim: clique em uma parada da linha para ver o que fazer, e a próxima parada aparece.</p>\n<div class=\"game\" data-game=\"classroom\"></div>\n<div class=\"ctimer\"><div class=\"ctoast t15\"><span class=\"tt\">🔔 Aviso</span><b>Faltam 15 minutos</b><p>O horário da aula acabou: comece a encerrar com calma.</p></div><div class=\"ctoast t3\"><span class=\"tt\">⏳ Aviso</span><b>Faltam 3 minutos</b><span class=\"cd\">3:00</span><p>Termine a reflexão e se despeça.</p></div><div class=\"ctoast t0\"><span class=\"tt\">⏰ Aviso</span><b>O tempo acabou</b><p>Em breve o Classroom vai fechar aqui automaticamente.</p></div></div>"
+    },
+    {
+     "id": "s17",
+     "title": "📏 As regras de ouro de toda aula",
+     "html": "<p>Estas regras <strong>não são opcionais</strong>. Passe pelos cartões — cada um mostra a regra e o que evitar.</p>\n<div class=\"game\" data-game=\"rules\"></div>\n<p>Último passo deste módulo: confirme o seu compromisso. A verificação do módulo abre quando todas as linhas estiverem marcadas.</p>\n<div class=\"game\" data-game=\"pledge\"></div>"
     }
+   ],
+   "needs": [
+    "pledge"
    ]
   },
   {
@@ -322,7 +330,7 @@ window.COURSE = {
     {
      "id": "s25",
      "title": "⭐ Hábitos de uma aula de qualidade — hábito ou não?",
-     "html": "<p>Seis hábitos fazem uma aula funcionar para uma criança pequena. Leia o que um tutor faz na aula e decida: <strong>um bom hábito</strong> ou <strong>algo a evitar</strong>? Cada resposta mostra a qual hábito ela pertence.</p>\n<div class=\"game\" data-game=\"habits\"></div>"
+     "html": "<p>Seis hábitos fazem uma aula funcionar para uma criança pequena. Leia o que um tutor faz na aula e decida: <strong>um bom hábito</strong> ou <strong>algo a evitar</strong>? Cada resposta mostra a qual hábito ela pertence.</p>\n<div class=\"game\" data-game=\"habits\"></div>\n<div class=\"video\" data-video=\"clip-closing\"></div>"
     },
     {
      "id": "s26",
@@ -331,11 +339,16 @@ window.COURSE = {
     },
     {
      "id": "s27",
-     "title": "✅ O seu checklist da aula",
-     "html": "<div class=\"cklist\"><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Li o resumo da Wiki e percorri a apresentação inteira, resolvendo todas as tarefas eu mesmo.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Sei qual é a ideia principal que o aluno precisa entender hoje e onde ele pode travar.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Tenho objetos ou um desenho prontos para a parte mais difícil.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Testei o som, os links e o login do aluno na plataforma.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Deixei o aluno tentar antes de explicar e perguntei \"Como você pensou?\" pelo menos três vezes.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Verifiquei a compreensão com uma tarefa parecida, e não só com \"Entendeu?\".</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Depois da aula, anotei o que foi difícil para o aluno, para revisar na próxima vez.</span></button></div>\n<div class=\"callout\">\n<p>Se algo de uma aula não estiver claro para você, pergunte ao seu mentor regional de TD <strong>antes</strong> da aula.</p>\n</div>"
+     "title": "🚦 Antes da sua primeira aula — o seu roteiro",
+     "html": "<p>Uma aula bem preparada é uma aula divertida — para você e para o seu aluno. Siga este roteiro e lembre-se das três coisas <strong>obrigatórias antes de cada aula</strong>:</p>\n<div class=\"game\" data-game=\"roadmap\"></div>\n<p>A sua primeira parada é o <strong>cartão do grupo</strong> no BO. Ele mostra qual curso dar e quem é o seu aluno:</p>\n<div class=\"game\" data-game=\"groupcard\"></div>"
     },
     {
      "id": "s28",
+     "title": "✅ O seu checklist da aula",
+     "html": "<div class=\"cklist\"><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span><strong>OBRIGATÓRIO:</strong> Conferi que o código do curso dos materiais é o mesmo do grupo atribuído a mim.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span><strong>OBRIGATÓRIO:</strong> Pelo menos 30 minutos antes da aula abri a apresentação, li o resumo da Wiki e resolvi todas as tarefas eu mesmo.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Sei qual é a ideia principal que o aluno precisa entender hoje e onde ele pode travar.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Tenho objetos ou um desenho prontos para a parte mais difícil.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Testei o som, os links e o login do aluno na plataforma.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Deixei o aluno tentar antes de explicar e perguntei \"Como você pensou?\" pelo menos três vezes.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Verifiquei a compreensão com uma tarefa parecida, e não só com \"Entendeu?\".</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>Depois da aula, anotei o que foi difícil para o aluno, para revisar na próxima vez.</span></button></div>\n<div class=\"callout\">\n<p>Algo não está claro? <strong>O seu mentor regional de TD está pronto para ajudar</strong> — pergunte antes da aula.</p>\n</div>"
+    },
+    {
+     "id": "s29",
      "title": "🎬 Assista a uma aula real",
      "html": "<p>Aqui fica a gravação completa de uma aula dos Níveis 1–4 no Classroom: a abertura, a apresentação Genially, a parte individual e o fechamento. Os vídeos curtos deste módulo mostram momentos isolados de uma aula; esta gravação mostra como eles se encaixam.</p>\n<div class=\"video\" data-video=\"teach\"></div>\n<div class=\"video\" data-video=\"clip-individual\"></div>"
     }
@@ -471,15 +484,15 @@ window.COURSE = {
     "e": "Verde = o botão do aluno, modo individual. Vermelho = o botão do tutor, modo colaborativo."
    },
    {
-    "q": "Como você mostra ou explica algo em um slide no Classroom?",
+    "q": "Como você mostra ou explica algo visualmente no Classroom?",
     "o": [
-     "Desenhando e escrevendo com a Anotação",
+     "Abrindo o Whiteboard e desenhando ou escrevendo nele",
      "Mandando uma foto no chat",
      "Lendo o resumo da Wiki em voz alta",
      "Pedindo que o aluno pesquise na internet"
     ],
     "a": 0,
-    "e": "Use a Anotação do Classroom para desenhar e escrever direto no slide."
+    "e": "Não há ferramenta de anotação no slide: use o Whiteboard do Classroom para desenhar e escrever."
    },
    {
     "q": "O horário da aula acabou e o Classroom mostra \"faltam 15 minutos\". O que vale por enquanto?",
@@ -491,6 +504,28 @@ window.COURSE = {
     ],
     "a": 1,
     "e": "Por enquanto o Classroom só mostra os avisos (15 minutos, 3 minutos com contagem regressiva, o tempo acabou). Em cerca de um mês ele vai fechar automaticamente, com até 15 minutos extras depois do fim da aula."
+   },
+   {
+    "q": "Quando você precisa ler o resumo da aula na Wiki?",
+    "o": [
+     "Só uma vez, quando o curso começa",
+     "Pelo menos 1 dia antes do curso, e de novo pelo menos 30 minutos antes de cada aula",
+     "Só se o aluno fizer uma pergunta",
+     "Depois da aula, para escrever o relatório"
+    ],
+    "a": 1,
+    "e": "A Wiki mostra o objetivo, os tempos e os slides importantes. Leia no dia anterior ao curso e de novo pelo menos 30 minutos antes de cada aula."
+   },
+   {
+    "q": "O cartão do grupo no BO mostra o curso [2249]. Um curso parecido tem slides mais bonitos. O que você dá?",
+    "o": [
+     "Só o curso [2249] do cartão do grupo",
+     "O curso parecido, se o tema for o mesmo",
+     "Uma mistura dos dois cursos",
+     "O que o aluno preferir"
+    ],
+    "a": 0,
+    "e": "Use SÓ o código de curso do cartão do grupo — nunca materiais de outro curso."
    }
   ],
   "m2": [
@@ -668,7 +703,8 @@ window.COURSE = {
   "clip-opening": "",
   "clip-explain": "",
   "clip-mistake": "",
-  "clip-individual": ""
+  "clip-individual": "",
+  "clip-closing": ""
  },
  "games": {
   "ask": {
@@ -779,7 +815,7 @@ window.COURSE = {
       ]
      ],
      "mistake": "O aluno confunde > e <.",
-     "help": "Compare as quantidades primeiro (\"Quem tem mais?\") e depois desenhe a boca aberta do Croco para o número maior com a Anotação."
+     "help": "Compare as quantidades primeiro (\"Quem tem mais?\") e depois desenhe a boca aberta do Croco para o número maior no Whiteboard."
     },
     {
      "tag": "Dezenas e unidades · Níveis 2–4",
@@ -1212,7 +1248,7 @@ window.COURSE = {
      "tag": "🖼️ Etapa 2 · Pictórico",
      "img": "assets/img/pt/l1-zero.jpg",
      "title": "Depois, mostre em uma imagem",
-     "text": "Passe para o slide ou desenhe com a Anotação. A Foxy derrubou a pipoca: a caixa no slide está completamente vazia.",
+     "text": "Passe para o slide ou desenhe no Whiteboard. A Foxy derrubou a pipoca: a caixa no slide está completamente vazia.",
      "say": "\"Olha a caixa da Foxy. Quantas pipocas sobraram?\""
     },
     {
@@ -1374,6 +1410,8 @@ window.COURSE = {
      "title": "Antes da aula",
      "svg": "<svg class=\"art\" viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect width=\"400\" height=\"260\" rx=\"18\" fill=\"#F3F6FF\"/><rect x=\"70\" y=\"40\" width=\"260\" height=\"160\" rx=\"10\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"3.5\"/><path d=\"M40 208 h320 l-20 20 h-280Z\" fill=\"#C9D0E3\" stroke=\"#16162B\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><rect x=\"82\" y=\"50\" width=\"74\" height=\"22\" rx=\"6\" fill=\"#FFF3B0\" stroke=\"#16162B\" stroke-width=\"2.5\"/><text x=\"119\" y=\"67\" text-anchor=\"middle\" font-size=\"13\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">BO</text><rect x=\"162\" y=\"50\" width=\"74\" height=\"22\" rx=\"6\" fill=\"#DFF3FF\" stroke=\"#16162B\" stroke-width=\"2.5\"/><text x=\"199\" y=\"67\" text-anchor=\"middle\" font-size=\"13\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">Wiki</text><rect x=\"242\" y=\"50\" width=\"74\" height=\"22\" rx=\"6\" fill=\"#FFE0EF\" stroke=\"#16162B\" stroke-width=\"2.5\"/><text x=\"279\" y=\"67\" text-anchor=\"middle\" font-size=\"13\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">Genially</text><rect x=\"104\" y=\"112\" width=\"40\" height=\"28\" rx=\"5\" fill=\"#16162B\"/><path d=\"M144 120 l14 -8 v28 l-14 -8Z\" fill=\"#16162B\"/><rect x=\"192\" y=\"102\" width=\"18\" height=\"34\" rx=\"9\" fill=\"#16162B\"/><path d=\"M184 124 a17 17 0 0 0 34 0 M201 141 v12 m-10 0 h20\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><path d=\"M266 146 a10 10 0 0 1 20 0\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M256 144 a20 20 0 0 1 40 0\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M246 142 a30 30 0 0 1 60 0\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"276\" cy=\"150\" r=\"5\" fill=\"#16162B\"/><circle cx=\"150\" cy=\"170\" r=\"13\" fill=\"#22B573\" stroke=\"#16162B\" stroke-width=\"2.5\"/><path d=\"M144 170 l4 5 l8 -10\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"222\" cy=\"170\" r=\"13\" fill=\"#22B573\" stroke=\"#16162B\" stroke-width=\"2.5\"/><path d=\"M216 170 l4 5 l8 -10\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"300\" cy=\"170\" r=\"13\" fill=\"#22B573\" stroke=\"#16162B\" stroke-width=\"2.5\"/><path d=\"M294 170 l4 5 l8 -10\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
      "points": [
+      "Confira se os materiais são do código de curso do seu grupo.",
+      "Pelo menos 30 minutos antes: leia o resumo da Wiki e resolva as tarefas.",
       "Entre com antecedência e abra o primeiro slide da apresentação.",
       "Verifique câmera, microfone e internet.",
       "Deixe a aula no BO e o resumo da Wiki abertos em outras abas.",
@@ -1396,7 +1434,7 @@ window.COURSE = {
      "svg": "<svg class=\"art\" viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect width=\"400\" height=\"260\" rx=\"18\" fill=\"#F3F6FF\"/><rect x=\"40\" y=\"36\" width=\"320\" height=\"190\" rx=\"12\" fill=\"#2B2D42\" stroke=\"#16162B\" stroke-width=\"3.5\"/><rect x=\"66\" y=\"58\" width=\"220\" height=\"140\" rx=\"12\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"3\"/><rect x=\"106\" y=\"80\" width=\"140\" height=\"14\" rx=\"7\" fill=\"#DDE3F3\"/><rect x=\"126\" y=\"104\" width=\"100\" height=\"10\" rx=\"5\" fill=\"#E9EDF7\"/><path d=\"M80 54 h28 v44 l-14 -10 l-14 10Z\" fill=\"#22B573\" stroke=\"#16162B\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M110 150 q30 -40 60 0 t60 0\" fill=\"none\" stroke=\"#F03D9E\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"236\" cy=\"160\" r=\"22\" fill=\"none\" stroke=\"#F03D9E\" stroke-width=\"5\"/><g transform=\"translate(300 90)\"><circle r=\"26\" fill=\"#C4F046\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M-12 -6 h8 l10 -9 v30 l-10 -9 h-8Z\" fill=\"#16162B\"/><path d=\"M10 -8 q8 8 0 16\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"3\" stroke-linecap=\"round\"/></g><g transform=\"translate(300 170) rotate(30)\"><rect x=\"-6\" y=\"-30\" width=\"12\" height=\"50\" rx=\"3\" fill=\"#F03D9E\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M-6 20 l6 14 l6 -14Z\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"3\" stroke-linejoin=\"round\"/></g></svg>",
      "points": [
       "Compartilhe a apresentação Genially com o compartilhamento de som ativado — muitos slides têm áudio (principalmente no Nível 3).",
-      "Para mostrar ou explicar algo, desenhe e escreva direto no slide com a Anotação do Classroom."
+      "Para mostrar ou explicar algo, abra o Whiteboard do Classroom e desenhe ou escreva nele — não há ferramenta de anotação no slide."
      ]
     },
     {
@@ -1442,6 +1480,759 @@ window.COURSE = {
      ]
     }
    ]
+  },
+  "roadmap": {
+   "title": "O seu roteiro até a primeira aula",
+   "steps": [
+    {
+     "icon": "📅",
+     "when": "1 dia antes do curso",
+     "title": "Prepare-se",
+     "color": "#4D7CFE",
+     "items": [
+      [
+       "🗂️",
+       "Cartão do grupo no BO: código do curso, idade, comentários"
+      ],
+      [
+       "🎞️",
+       "A apresentação Genially inteira e o resumo da Wiki"
+      ]
+     ]
+    },
+    {
+     "icon": "⏰",
+     "when": "30 minutos antes",
+     "title": "Fique pronto",
+     "color": "#F59E0B",
+     "items": [
+      [
+       "📖",
+       "Leia o resumo da Wiki e resolva as tarefas"
+      ],
+      [
+       "🎥",
+       "Classroom: câmera, microfone, som compartilhado, login do aluno"
+      ]
+     ]
+    },
+    {
+     "icon": "🎬",
+     "when": "Durante a aula",
+     "title": "Siga o plano",
+     "color": "#22B573",
+     "items": [
+      [
+       "🦊",
+       "Comece pela Foxy e pela história, não pela regra"
+      ],
+      [
+       "🟢",
+       "Slides verdes, pausa para se movimentar e parte individual — nunca pulados"
+      ]
+     ]
+    },
+    {
+     "icon": "🏁",
+     "when": "No final",
+     "title": "Feche bem",
+     "color": "#F03D9E",
+     "items": [
+      [
+       "💬",
+       "Reflexão e fechamento"
+      ],
+      [
+       "🎁",
+       "Um gostinho da próxima aula — para o aluno querer voltar"
+      ]
+     ]
+    }
+   ],
+   "must": {
+    "title": "⚠️ Obrigatório antes de cada aula",
+    "items": [
+     [
+      "🏷️",
+      "Confira se o <b>código do curso</b> dos materiais é o mesmo do <b>grupo atribuído a você</b>."
+     ],
+     [
+      "📖",
+      "Pelo menos <b>30 minutos antes</b> da aula: abra os materiais, leia o resumo da Wiki e resolva as tarefas você mesmo."
+     ],
+     [
+      "🙋",
+      "Algo não está claro? <b>O seu mentor de TD está pronto para ajudar</b> — pergunte antes da aula."
+     ]
+    ]
+   }
+  },
+  "groupcard": {
+   "ui": {
+    "title": "Como ler o cartão do grupo",
+    "sub": "Confira estas 4 coisas antes da primeira aula com um grupo novo. Toque nos números."
+   },
+   "card": {
+    "name": "BR_ind_215_",
+    "slot": "FRI-15",
+    "course": "[2249]Aventuras Matemáticas Nível 1[2026][5-7][60 min][32 L][Brazil][in progress]",
+    "age": "5-7 years",
+    "total": "0/32",
+    "student": "Ana",
+    "fields": [
+     [
+      "👤",
+      "Tutor",
+      "Seu nome"
+     ],
+     [
+      "🛠️",
+      "Tech Support",
+      "–"
+     ],
+     [
+      "🏢",
+      "Business Branch",
+      "Brazil"
+     ],
+     [
+      "🔻",
+      "AMO Funnel",
+      "Brazil Pipeline"
+     ],
+     [
+      "🌐",
+      "Language",
+      "Portuguese"
+     ],
+     [
+      "🕒",
+      "Timezone",
+      "America/Sao_Paulo"
+     ]
+    ],
+    "right": [
+     [
+      "🏷️",
+      "[19] Individual group | short"
+     ],
+     [
+      "👥",
+      "1 students"
+     ],
+     [
+      "⏱️",
+      "60 minutes"
+     ]
+    ],
+    "tabs": [
+     "Students",
+     "Schedule",
+     "Check"
+    ],
+    "list": "List of students",
+    "comments": "Comments",
+    "nodesc": "No description"
+   },
+   "notes": [
+    {
+     "n": 1,
+     "c": "#2563EB",
+     "title": "Nome do grupo",
+     "text": "O código do grupo. A última parte mostra o dia e o horário de início: FRI-15 = sexta-feira, 15:00."
+    },
+    {
+     "n": 2,
+     "c": "#DC2626",
+     "title": "Material do curso",
+     "text": "O curso exato que você deve dar neste grupo.",
+     "warn": "<b>Use SÓ este código de curso.</b> Nunca use materiais de outro curso, mesmo que pareça igual."
+    },
+    {
+     "n": 3,
+     "c": "#16A34A",
+     "title": "Faixa etária",
+     "text": "A idade dos seus alunos. Adapte a linguagem, o ritmo e os exemplos a essa idade."
+    },
+    {
+     "n": 4,
+     "c": "#7C3AED",
+     "title": "Comentários",
+     "text": "Recados do TL ou do time de CS sobre os alunos deste grupo. <b>Leia antes da aula.</b>"
+    }
+   ]
+  },
+  "rules": {
+   "ui": {
+    "prev": "← Voltar",
+    "next": "Próximo →",
+    "of": "Regra {n} / {total}",
+    "try": "⚠️ Evite isto",
+    "again": "↺ Começar de novo"
+   },
+   "cards": [
+    {
+     "tag": "1 · Preparação",
+     "img": "assets/img/pt/g-green.jpg",
+     "title": "Prepare-se pelo menos 1 dia antes",
+     "text": "Antes de o curso começar, percorra a apresentação Genially inteira, resolva todas as tarefas e leia o resumo da aula na Wiki. O plano precisa estar 100% claro para você.",
+     "say": "Abrir a apresentação pela primeira vez durante a aula."
+    },
+    {
+     "tag": "2 · Wiki",
+     "svg": "<svg class=\"art\" viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect width=\"400\" height=\"260\" rx=\"18\" fill=\"#F3F6FF\"/><path d=\"M60 60 q70 -20 140 0 v150 q-70 -20 -140 0Z\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><path d=\"M200 60 q70 -20 140 0 v150 q-70 -20 -140 0Z\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><path d=\"M80 90 h100\" stroke=\"#C9D0E3\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M80 112 h92\" stroke=\"#C9D0E3\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M80 134 h84\" stroke=\"#C9D0E3\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M80 156 h76\" stroke=\"#C9D0E3\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M220 90 h100\" stroke=\"#C9D0E3\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M220 112 h92\" stroke=\"#C9D0E3\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M220 134 h84\" stroke=\"#C9D0E3\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M220 156 h76\" stroke=\"#C9D0E3\" stroke-width=\"6\" stroke-linecap=\"round\"/><g transform=\"translate(330 70)\"><circle r=\"40\" fill=\"#FFD66B\" stroke=\"#16162B\" stroke-width=\"3.5\"/><path d=\"M0 -26 v26 l16 10\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"4\" stroke-linecap=\"round\"/></g><text x=\"330\" y=\"140\" text-anchor=\"middle\" font-size=\"24\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">30'</text></svg>",
+     "title": "A Wiki é a sua ferramenta mais poderosa",
+     "text": "O resumo da Wiki diz o que cada aula ensina, os tempos e o que fazer nos slides importantes. Leia pelo menos 30 minutos antes de cada aula.",
+     "say": "Dar a aula sem ler a Wiki e deixar etapas importantes de fora."
+    },
+    {
+     "tag": "3 · Abertura",
+     "img": "assets/img/pt/foxy.jpg",
+     "title": "Abra com a Foxy e a história",
+     "text": "Comece pela história e por um problema real — não pela regra.",
+     "say": "Começar pela regra e pular a história."
+    },
+    {
+     "tag": "4 · Etapas",
+     "img": "assets/img/pt/g-green.jpg",
+     "title": "Siga as etapas da aula",
+     "text": "Conduza a aula na ordem da apresentação e da Wiki. Os slides verdes são obrigatórios — nunca pule.",
+     "say": "Pular etapas importantes da aula."
+    },
+    {
+     "tag": "5 · Nunca pule",
+     "img": "assets/img/pt/l1-move.jpg",
+     "title": "Pausa para se movimentar e parte individual ficam",
+     "text": "Nunca pule a pausa para se movimentar. Na parte individual (Níveis 1–3 a partir da Aula 6, Nível 4 sempre) o aluno trabalha sozinho na plataforma.",
+     "say": "Cortar a pausa para ganhar tempo — o aluno fica cansado."
+    },
+    {
+     "tag": "6 · Perguntas",
+     "svg": "<svg class=\"art\" viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect width=\"400\" height=\"260\" rx=\"18\" fill=\"#F3F6FF\"/><circle cx=\"90\" cy=\"150\" r=\"44\" fill=\"#FFE0C2\" stroke=\"#16162B\" stroke-width=\"3.5\"/><circle cx=\"76\" cy=\"144\" r=\"5\" fill=\"#16162B\"/><circle cx=\"104\" cy=\"144\" r=\"5\" fill=\"#16162B\"/><path d=\"M78 166 q12 12 24 0\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M50 120 q40 -50 80 0\" fill=\"#6B3E26\"/><path d=\"M160 40 h200 a16 16 0 0 1 16 16 v86 a16 16 0 0 1 -16 16 h-150 l-36 26 l8 -26 h-22 a16 16 0 0 1 -16 -16 v-86 a16 16 0 0 1 16 -16Z\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"200\" cy=\"80\" r=\"13\" fill=\"#FFD66B\" stroke=\"#B5651D\" stroke-width=\"2.5\"/><text x=\"200\" y=\"86\" text-anchor=\"middle\" font-size=\"16\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">1</text><circle cx=\"240\" cy=\"80\" r=\"13\" fill=\"#FFD66B\" stroke=\"#B5651D\" stroke-width=\"2.5\"/><text x=\"240\" y=\"86\" text-anchor=\"middle\" font-size=\"16\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">2</text><circle cx=\"280\" cy=\"80\" r=\"13\" fill=\"#FFD66B\" stroke=\"#B5651D\" stroke-width=\"2.5\"/><text x=\"280\" y=\"86\" text-anchor=\"middle\" font-size=\"16\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">3</text><circle cx=\"320\" cy=\"80\" r=\"13\" fill=\"#FFD66B\" stroke=\"#B5651D\" stroke-width=\"2.5\"/><text x=\"320\" y=\"86\" text-anchor=\"middle\" font-size=\"16\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">4</text><circle cx=\"220\" cy=\"122\" r=\"13\" fill=\"#FFD66B\" stroke=\"#B5651D\" stroke-width=\"2.5\"/><text x=\"220\" y=\"128\" text-anchor=\"middle\" font-size=\"16\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">5</text><circle cx=\"260\" cy=\"122\" r=\"13\" fill=\"#FFD66B\" stroke=\"#B5651D\" stroke-width=\"2.5\"/><text x=\"260\" y=\"128\" text-anchor=\"middle\" font-size=\"16\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">6</text><path d=\"M184 80 h-8 v42 h22\" fill=\"none\" stroke=\"#0EA5E9\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>",
+     "title": "Perguntas antes das respostas",
+     "text": "Dê dicas com perguntas orientadoras. Mostre a resposta só depois que o aluno tentar.",
+     "say": "Dar a resposta logo de cara."
+    },
+    {
+     "tag": "7 · Whiteboard",
+     "svg": "<svg class=\"art\" viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect width=\"400\" height=\"260\" rx=\"18\" fill=\"#F3F6FF\"/><rect x=\"50\" y=\"30\" width=\"300\" height=\"170\" rx=\"10\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"5\"/><path d=\"M120 200 l-20 44 M280 200 l20 44\" stroke=\"#16162B\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M80 150 h220\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M90 142 v16\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M130 142 v16\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M170 142 v16\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M210 142 v16\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M250 142 v16\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M290 142 v16\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M130 150 q40 -60 80 0\" fill=\"none\" stroke=\"#0EA5E9\" stroke-width=\"4\" stroke-dasharray=\"7 6\"/><text x=\"170\" y=\"92\" text-anchor=\"middle\" font-size=\"26\" fill=\"#0EA5E9\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">+4</text><g transform=\"translate(320 70) rotate(35)\"><rect x=\"-9\" y=\"-34\" width=\"18\" height=\"56\" rx=\"4\" fill=\"#F03D9E\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M-9 22 l9 14 l9 -14Z\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"3\" stroke-linejoin=\"round\"/></g></svg>",
+     "title": "Não há ferramenta de anotação",
+     "text": "Para desenhar ou explicar algo, use o Whiteboard do Classroom.",
+     "say": "Procurar uma caneta de anotação no slide e perder tempo."
+    },
+    {
+     "tag": "8 · Ajuda",
+     "svg": "<svg class=\"art\" viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect width=\"400\" height=\"260\" rx=\"18\" fill=\"#F3F6FF\"/><circle cx=\"140\" cy=\"130\" r=\"58\" fill=\"#FFE0C2\" stroke=\"#16162B\" stroke-width=\"3.5\"/><path d=\"M78 130 a62 62 0 0 1 124 0\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"10\"/><rect x=\"66\" y=\"118\" width=\"22\" height=\"40\" rx=\"8\" fill=\"#0EA5E9\" stroke=\"#16162B\" stroke-width=\"3\"/><rect x=\"192\" y=\"118\" width=\"22\" height=\"40\" rx=\"8\" fill=\"#0EA5E9\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M203 158 q0 34 -40 36\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"4\"/><circle cx=\"158\" cy=\"194\" r=\"7\" fill=\"#16162B\"/><circle cx=\"122\" cy=\"124\" r=\"5\" fill=\"#16162B\"/><circle cx=\"158\" cy=\"124\" r=\"5\" fill=\"#16162B\"/><path d=\"M126 150 q14 12 28 0\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><g transform=\"translate(300 130) rotate(-40)\"><rect x=\"-8\" y=\"-10\" width=\"16\" height=\"90\" rx=\"6\" fill=\"#9AA3B8\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M-22 -50 a24 24 0 1 0 44 0 l-10 0 v18 h-24 v-18Z\" fill=\"#9AA3B8\" stroke=\"#16162B\" stroke-width=\"3\" stroke-linejoin=\"round\"/></g></svg>",
+     "title": "Na dúvida? Pergunte antes da aula",
+     "text": "Se algo sobre o curso, os materiais ou o método não estiver claro, fale com o seu mentor regional de TD antes da aula.",
+     "say": "Improvisar em vez de perguntar."
+    }
+   ]
+  },
+  "rightwrong": {
+   "ui": {
+    "good": "✅ Certo",
+    "bad": "❌ Errado",
+    "next": "Próximo →",
+    "right": "✅ Isso mesmo!",
+    "wrong": "❌ Não exatamente.",
+    "progress": "{n} de {total}",
+    "done": "Você julgou {score} de {total} situações corretamente. Estas são as regras por trás delas:",
+    "again": "↺ Jogar de novo",
+    "habit": "Regra"
+   },
+   "habits": [
+    [
+     "📅",
+     "Prepare-se 1 dia antes"
+    ],
+    [
+     "📖",
+     "Leia a Wiki"
+    ],
+    [
+     "🦊",
+     "História primeiro"
+    ],
+    [
+     "🟢",
+     "Siga as etapas"
+    ],
+    [
+     "🤸",
+     "Nunca pule a pausa e a parte individual"
+    ],
+    [
+     "🖍️",
+     "Whiteboard"
+    ],
+    [
+     "🙋",
+     "Fale com o mentor de TD"
+    ]
+   ],
+   "cards": [
+    [
+     "O tutor abre a apresentação Genially pela primeira vez quando a aula começa.",
+     false,
+     0,
+     "Percorra a apresentação inteira e resolva todas as tarefas pelo menos 1 dia antes."
+    ],
+    [
+     "10 minutos antes da aula, o tutor lê de novo o resumo da aula na Wiki.",
+     true,
+     1,
+     "A Wiki mostra o objetivo, os tempos e o que fazer nos slides importantes."
+    ],
+    [
+     "O tutor começa a aula escrevendo a regra da adição no slide.",
+     false,
+     2,
+     "Comece pela Foxy e pela história — primeiro um problema real, depois a regra."
+    ],
+    [
+     "O tempo está curto, então o tutor pula dois slides verdes.",
+     false,
+     3,
+     "Os slides verdes são obrigatórios. Pule as atividades extras."
+    ],
+    [
+     "O aluno está cansado; o tutor faz a pausa para se movimentar com ele.",
+     true,
+     4,
+     "A pausa nunca é pulada — ela dá energia para o resto da aula."
+    ],
+    [
+     "O tutor explica dezenas e unidades desenhando no Whiteboard.",
+     true,
+     5,
+     "Não há ferramenta de anotação — o Whiteboard é o lugar certo."
+    ],
+    [
+     "O tutor não sabe bem como conduzir a parte individual e improvisa.",
+     false,
+     6,
+     "Fale com o seu mentor regional de TD antes da aula."
+    ]
+   ]
+  },
+  "pledge": {
+   "title": "✍️ O meu compromisso",
+   "sub": "Marque todas as linhas. A verificação do módulo abre quando todas estiverem marcadas.",
+   "done": "🎉 Pronto! A verificação do módulo está aberta.",
+   "left": "{k} de {total} marcadas",
+   "items": [
+    "Antes de cada aula confiro se o código do curso dos materiais é o mesmo do grupo atribuído a mim.",
+    "Pelo menos 30 minutos antes de cada aula abro a apresentação, leio o resumo da Wiki e resolvo as tarefas.",
+    "Sigo as etapas da aula: história primeiro, slides verdes, pausa para se movimentar e parte individual — sem pular nada.",
+    "Quando algo não está claro, pergunto ao meu mentor de TD antes da aula."
+   ]
+  }
+ },
+ "clips": {
+  "ui": {
+   "sound": "🔊 Ativar o som",
+   "again": "↺ Ver de novo",
+   "region": "Gravação de aula real · {src} · {lvl} · falada em {lang}",
+   "subs": "Legendas traduzidas para o português",
+   "nosubs": "Sem legendas: observe o fluxo da aula",
+   "focus": "Foque em",
+   "clip": "Trecho",
+   "tutor": "Tutor",
+   "student": "Aluno(a)",
+   "play": "▶ Assistir ao trecho"
+  },
+  "items": {
+   "clip-explain": {
+    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
+    "start": 650,
+    "end": 856,
+    "auto": true,
+    "title": "Começar pelo mundo das crianças: Minecraft x Roblox",
+    "focus": "Antes de qualquer regra, a tutora mostra os inscritos no YouTube de dois jogos que as crianças adoram, pede a opinião delas e deixa que descubram que o número maior ganha. Depois liga a habilidade ao dia a dia (qual loja fica mais perto, qual jogo vocês mais jogam).",
+    "region": "Gravação de aula real · Indonésia · aula em grupo · Nível 4 · falada em indonésio",
+    "subs": [
+     [
+      653.9,
+      661.9,
+      "T",
+      "Para começar, aqui estão os canais do YouTube do Minecraft e do Roblox."
+     ],
+     [
+      661.9,
+      670.9,
+      "T",
+      "Olhem aqui: estes são os inscritos do Minecraft."
+     ],
+     [
+      674.9,
+      680.9,
+      "T",
+      "O Minecraft tem 13,3 milhões de inscritos."
+     ],
+     [
+      680.9,
+      690.9,
+      "T",
+      "Bastante, né? E o Roblox tem 5,32 milhões de inscritos."
+     ],
+     [
+      690.9,
+      697.9,
+      "T",
+      "Qual vocês acham que é o mais famoso — Minecraft ou Roblox?"
+     ],
+     [
+      697.9,
+      699.9,
+      "S",
+      "Roblox!"
+     ],
+     [
+      699.9,
+      701.9,
+      "T",
+      "Sério?"
+     ],
+     [
+      711.9,
+      719.9,
+      "T",
+      "Talvez vocês joguem mais Roblox… Você já jogou Minecraft?"
+     ],
+     [
+      719.9,
+      725.9,
+      "S",
+      "Já… eu jogo com meus amigos."
+     ],
+     [
+      751.4,
+      760.8,
+      "T",
+      "Agora a pergunta é: qual canal é o mais famoso de acordo com estes números?"
+     ],
+     [
+      770.2,
+      784.5,
+      "T",
+      "Minecraft 13,3 milhões, Roblox 5,32 milhões. Então, quem tem mais inscritos?"
+     ],
+     [
+      789.0,
+      793.0,
+      "S",
+      "Minecraft!"
+     ],
+     [
+      793.0,
+      806.0,
+      "T",
+      "Olhando os números, o maior é o Minecraft. Vocês acabaram de comparar números!"
+     ],
+     [
+      810.0,
+      832.5,
+      "T",
+      "Quando vocês sabem comparar números, dá para comparar muitas coisas — qual loja fica mais perto de casa, qual jogo vocês mais jogam…"
+     ],
+     [
+      832.5,
+      837.0,
+      "T",
+      "Deixa eu perguntar: qual jogo vocês mais jogam?"
+     ],
+     [
+      840.0,
+      845.0,
+      "S",
+      "Roblox."
+     ],
+     [
+      845.0,
+      855.0,
+      "T",
+      "Igual! Vocês acabaram de comparar todos os jogos — e o que mais jogam é o Roblox."
+     ]
+    ]
+   },
+   "clip-mistake": {
+    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
+    "start": 1866,
+    "end": 1964,
+    "auto": true,
+    "title": "Um sinal errado: \"vamos conferir\" em vez de \"errado\"",
+    "focus": "A aluna escolhe o sinal errado. A tutora nunca diz \"errado\": diz \"vamos conferir\", guia passo a passo (algarismos → primeiro algarismo → maior ou menor), pergunta \"Tem certeza?\" e dá uma pista visual, para a aluna se corrigir sozinha — e depois elogia.",
+    "region": "Gravação de aula real · Indonésia · aula em grupo · Nível 4 · falada em indonésio",
+    "subs": [
+     [
+      1871.3,
+      1878.0,
+      "T",
+      "Vamos começar com você. Qual é a resposta — A ou B?"
+     ],
+     [
+      1879.6,
+      1883.0,
+      "S",
+      "B."
+     ],
+     [
+      1883.7,
+      1889.1,
+      "T",
+      "B? Tá bom, vamos conferir. Quantos algarismos tem este número?"
+     ],
+     [
+      1890.6,
+      1892.2,
+      "S",
+      "Quatro."
+     ],
+     [
+      1892.7,
+      1895.1,
+      "T",
+      "Quatro? E o número da direita?"
+     ],
+     [
+      1897.7,
+      1898.4,
+      "S",
+      "Quatro."
+     ],
+     [
+      1898.9,
+      1909.9,
+      "T",
+      "Igual, então comparamos os algarismos. O primeiro algarismo: é igual ou diferente?"
+     ],
+     [
+      1910.9,
+      1911.9,
+      "S",
+      "Diferente."
+     ],
+     [
+      1912.9,
+      1917.9,
+      "T",
+      "Lemos da esquerda: o 1 é maior ou menor que o 5?"
+     ],
+     [
+      1918.9,
+      1920.9,
+      "S",
+      "Menor."
+     ],
+     [
+      1920.9,
+      1925.2,
+      "T",
+      "Então qual é o sinal — A ou B?"
+     ],
+     [
+      1925.2,
+      1926.2,
+      "S",
+      "B."
+     ],
+     [
+      1927.2,
+      1928.6,
+      "T",
+      "Tem certeza?"
+     ],
+     [
+      1930.2,
+      1946.6,
+      "T",
+      "Vamos usar a imaginação: desenhe uma linha na frente… Se é menor, qual é o sinal?"
+     ],
+     [
+      1946.6,
+      1956.8,
+      "S",
+      "Este. Vamos enviar."
+     ],
+     [
+      1956.8,
+      1963.4,
+      "T",
+      "Muito bem!"
+     ]
+    ]
+   },
+   "clip-individual": {
+    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
+    "start": 3984,
+    "end": 4224,
+    "auto": true,
+    "title": "A parte individual: passos claros, depois os alunos trabalham sozinhos",
+    "focus": "A tutora dá passos claros para abrir a tarefa e compartilhar a tela, desliga os microfones para os alunos se concentrarem, confere cada tela e só relembra o método — ela não resolve as tarefas. (No Brasil, o aluno abre o Genially pela plataforma Kodland e clica no botão verde.)",
+    "region": "Gravação de aula real · Indonésia · aula em grupo · Nível 4 · falada em indonésio",
+    "subs": [
+     [
+      3987.4,
+      3995.0,
+      "T",
+      "Agora a tarefa individual. Quantas questões tem hoje?"
+     ],
+     [
+      3995.0,
+      4007.6,
+      "T",
+      "Sete questões. Cliquem na tarefa e depois compartilhem a tela."
+     ],
+     [
+      4051.9,
+      4064.9,
+      "T",
+      "Uma aluna já está compartilhando a tela. Vamos lá — abram \"Comparar e ordenar números grandes\"."
+     ],
+     [
+      4073.9,
+      4078.9,
+      "T",
+      "Vou desligar os microfones de vocês para vocês se concentrarem."
+     ],
+     [
+      4087.0,
+      4099.0,
+      "T",
+      "Se ainda estiver carregando, esperem. Digitem a senha para entrar e abram a tarefa individual."
+     ],
+     [
+      4106.2,
+      4109.2,
+      "T",
+      "Compartilhe a tela de novo, por favor."
+     ],
+     [
+      4119.6,
+      4134.3,
+      "T",
+      "Clique numa área vazia… Isso, agora envie a resposta embaixo."
+     ],
+     [
+      4139.2,
+      4157.2,
+      "T",
+      "Deixa eu conferir cada um… Vamos lá — clique em começar."
+     ],
+     [
+      4187.1,
+      4223.4,
+      "T",
+      "Façam como antes: primeiro comparem os algarismos; se forem iguais, comparem os números."
+     ]
+    ]
+   },
+   "clip-closing": {
+    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
+    "start": 5062,
+    "end": 5296,
+    "auto": true,
+    "title": "Um fechamento consistente: sentimentos, revisão, gostinho da próxima aula, desafio semanal",
+    "focus": "A tutora pergunta como foram as tarefas e qual parte foi difícil, tranquiliza a aluna, deixa as crianças dizerem o que aprenderam, conta um gostinho da próxima aula, lembra o desafio semanal (Nível 4) e termina com um momento feliz.",
+    "region": "Gravação de aula real · Indonésia · aula em grupo · Nível 4 · falada em indonésio",
+    "subs": [
+     [
+      5064.7,
+      5077.1,
+      "T",
+      "Ligue o microfone. As questões foram fáceis ou difíceis?"
+     ],
+     [
+      5077.1,
+      5083.0,
+      "S",
+      "Algumas foram difíceis."
+     ],
+     [
+      5086.1,
+      5094.1,
+      "T",
+      "Qual parte foi difícil — comparar, ordenar ou os problemas?"
+     ],
+     [
+      5094.1,
+      5097.0,
+      "S",
+      "Os problemas."
+     ],
+     [
+      5100.6,
+      5111.5,
+      "T",
+      "Tudo bem — a gente acabou de começar. Nas próximas aulas vocês vão praticar mais e se acostumar."
+     ],
+     [
+      5135.0,
+      5142.0,
+      "T",
+      "Então, o que fizemos na aula de hoje? Quem lembra?"
+     ],
+     [
+      5142.4,
+      5144.4,
+      "S",
+      "Comparar."
+     ],
+     [
+      5144.4,
+      5159.8,
+      "T",
+      "Comparar — e depois ordenar. Comparar e ordenar números grandes."
+     ],
+     [
+      5159.8,
+      5163.2,
+      "T",
+      "E no final, que tarefas fizemos?"
+     ],
+     [
+      5163.3,
+      5170.3,
+      "S",
+      "Problemas."
+     ],
+     [
+      5170.3,
+      5178.3,
+      "T",
+      "Ótimo! Então aprendemos 3 coisas hoje."
+     ],
+     [
+      5181.3,
+      5213.3,
+      "T",
+      "Na semana que vem vamos aprender a somar e subtrair números grandes, resolver os quebra-cabeças de lógica da Foxy e juntar tudo em um problema."
+     ],
+     [
+      5258.4,
+      5279.9,
+      "T",
+      "Para o Módulo 1, Aula 3, tem lição de casa: o desafio semanal de comparar e ordenar números grandes — tentem fazer para praticar."
+     ],
+     [
+      5285.6,
+      5293.1,
+      "T",
+      "Gostaram da aula? Mostrem os dois polegares para cima!"
+     ]
+    ]
+   },
+   "teach": {
+    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
+    "start": 180,
+    "end": 5346,
+    "auto": false,
+    "title": "Uma aula completa: comparar e ordenar números grandes",
+    "focus": "Uma aula completa do Nível 4 (uma aula em grupo de 90 minutos, mais longa que a aula individual do Brasil). Acompanhe o fluxo: abertura acolhedora (~3–10 min), objetivos do dia com a Foxy (~10), uma abertura com o mundo real (~11–14), revisão de valor posicional (~14–19), o método e a prática guiada (~19–39), problemas (~39–52), quebra-cabeças de lógica extras (~52–64), uma pausa com ginástica para os olhos (~64–66), a parte individual (~66–84) e o fechamento com um gostinho da próxima aula (~84–89).",
+    "region": "Gravação de aula real · Indonésia · aula em grupo · Nível 4 · falada em indonésio",
+    "subs": []
+   }
   }
  },
  "videoNotes": {
@@ -1455,7 +2246,7 @@ window.COURSE = {
   },
   "clip-explain": {
    "title": "Vídeo curto: explicar uma ideia",
-   "text": "1 a 3 minutos: o tutor explica o zero (a caixa de pipoca vazia da Foxy) indo do objeto real ao slide e ao 0 escrito, pensando em voz alta e usando a Anotação."
+   "text": "1 a 3 minutos: o tutor explica o zero (a caixa de pipoca vazia da Foxy) indo do objeto real ao slide e ao 0 escrito, pensando em voz alta e desenhando no Whiteboard."
   },
   "clip-mistake": {
    "title": "Vídeo curto: lidar com uma resposta errada",
@@ -1480,6 +2271,9 @@ window.COURSE = {
    "badge": "Simulação 2 de 2",
    "title": "Guia da aula no Classroom",
    "text": "Um passo a passo dos primeiros cartões do Nível 5, Aula 1 no Classroom: os cartões em Assignments, as Teacher notes que só você vê, o Slide para o tutor, o Lead the group e um cartão avaliado com verificação automática."
+  },
+  "pledge": {
+   "title": "Checklist de compromisso"
   }
  }
 };

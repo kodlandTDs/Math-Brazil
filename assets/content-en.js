@@ -177,7 +177,7 @@ window.COURSE = {
   },
   "videoSoon": "The lesson recording will be added here soon.",
   "videoLabel": "Lesson recording",
-  "lockSims": "🔒 Complete the simulations above to unlock the module check: {list}.",
+  "lockSims": "🔒 Complete these steps in this module to unlock the module check: {list}.",
   "simOpen": "▶ Open the simulation",
   "simClose": "✕ Close the simulation",
   "simNewTab": "↗ Open in a new tab",
@@ -287,7 +287,15 @@ window.COURSE = {
      "id": "s16",
      "title": "💻 Classroom, the platform and homework",
      "html": "<p>All lessons happen in <strong>Classroom</strong>. The individual part happens on the <strong>Kodland platform</strong>, where the student opens Genially with their own account. Follow one lesson from start to end: click a stop on the line to see what to do, and the next stop appears.</p>\n<div class=\"game\" data-game=\"classroom\"></div>\n<div class=\"ctimer\"><div class=\"ctoast t15\"><span class=\"tt\">🔔 Notification</span><b>15 minutes remaining</b><p>The lesson time is over: start closing calmly.</p></div><div class=\"ctoast t3\"><span class=\"tt\">⏳ Notification</span><b>3 minutes remaining</b><span class=\"cd\">3:00</span><p>Finish the reflection and say goodbye.</p></div><div class=\"ctoast t0\"><span class=\"tt\">⏰ Notification</span><b>Time is up</b><p>Soon Classroom will close here automatically.</p></div></div>"
+    },
+    {
+     "id": "s17",
+     "title": "📏 The golden rules of every lesson",
+     "html": "<p>These rules are <strong>not optional</strong>. Click through them — each card shows the rule and what to avoid.</p>\n<div class=\"game\" data-game=\"rules\"></div>\n<p>Last step of this module: confirm your commitment. The module check opens when every line is ticked.</p>\n<div class=\"game\" data-game=\"pledge\"></div>"
     }
+   ],
+   "needs": [
+    "pledge"
    ]
   },
   {
@@ -322,7 +330,7 @@ window.COURSE = {
     {
      "id": "s25",
      "title": "⭐ Habits of a quality lesson — habit or not?",
-     "html": "<p>Six habits make a lesson work for a young child. Read what a tutor does in class and decide: <strong>a good habit</strong> or <strong>something to avoid</strong>? Each answer shows which habit it belongs to.</p>\n<div class=\"game\" data-game=\"habits\"></div>"
+     "html": "<p>Six habits make a lesson work for a young child. Read what a tutor does in class and decide: <strong>a good habit</strong> or <strong>something to avoid</strong>? Each answer shows which habit it belongs to.</p>\n<div class=\"game\" data-game=\"habits\"></div>\n<div class=\"video\" data-video=\"clip-closing\"></div>"
     },
     {
      "id": "s26",
@@ -331,11 +339,16 @@ window.COURSE = {
     },
     {
      "id": "s27",
-     "title": "✅ Your lesson checklist",
-     "html": "<div class=\"cklist\"><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>I read the Wiki summary and went through the whole presentation, solving every task myself.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>I know the one idea the student must understand today, and where they could get stuck.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>I have objects or a drawing ready for the hardest part.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>I tested the sound, the links and the student's platform login.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>I let the student try before I explained, and asked \"How did you think?\" at least three times.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>I checked understanding with a similar task, not only with \"Did you understand?\".</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>After the lesson, I noted what was hard for the student, to review next time.</span></button></div>\n<div class=\"callout\">\n<p>If something in a lesson is not clear to you, ask your regional TD mentor <strong>before</strong> the lesson.</p>\n</div>"
+     "title": "🚦 Before your first lesson — your roadmap",
+     "html": "<p>A well-prepared lesson is a fun lesson — for you and for your student. Follow this route, and remember the three things that are <strong>mandatory before every lesson</strong>:</p>\n<div class=\"game\" data-game=\"roadmap\"></div>\n<p>Your first stop is the <strong>group card</strong> in BO. It tells you which course to teach and who your student is:</p>\n<div class=\"game\" data-game=\"groupcard\"></div>"
     },
     {
      "id": "s28",
+     "title": "✅ Your lesson checklist",
+     "html": "<div class=\"cklist\"><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span><strong>MANDATORY:</strong> I checked that the course code of the materials matches the group assigned to me.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span><strong>MANDATORY:</strong> At least 30 minutes before the lesson I opened the presentation, read the Wiki summary and solved every task myself.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>I know the one idea the student must understand today, and where they could get stuck.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>I have objects or a drawing ready for the hardest part.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>I tested the sound, the links and the student's platform login.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>I let the student try before I explained, and asked \"How did you think?\" at least three times.</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>I checked understanding with a similar task, not only with \"Did you understand?\".</span></button><button class=\"ck\" type=\"button\"><span class=\"ckb\"></span><span>After the lesson, I noted what was hard for the student, to review next time.</span></button></div>\n<div class=\"callout\">\n<p>Something is not clear? <strong>Your regional TD mentor is ready to help</strong> — ask before the lesson.</p>\n</div>"
+    },
+    {
+     "id": "s29",
      "title": "🎬 Watch a real lesson",
      "html": "<p>The full recording of a Levels 1–4 lesson in Classroom goes here: the opening, the Genially presentation, the individual part and the closing. The short clips in this module show single moments of a lesson; this recording shows how they fit together.</p>\n<div class=\"video\" data-video=\"teach\"></div>\n<div class=\"video\" data-video=\"clip-individual\"></div>"
     }
@@ -471,15 +484,15 @@ window.COURSE = {
     "e": "Green = the student button, individual mode. Red = the tutor button, collaborative mode."
    },
    {
-    "q": "How do you show or explain something on a slide in Classroom?",
+    "q": "How do you show or explain something visually in Classroom?",
     "o": [
-     "Draw and write on it with Annotation",
+     "Open the Whiteboard and draw or write there",
      "Send a photo in the chat",
      "Read the Wiki summary aloud",
      "Ask the student to search online"
     ],
     "a": 0,
-    "e": "Use Annotation in Classroom to draw and write directly on the slide."
+    "e": "There is no annotation tool on the slide: use the Whiteboard in Classroom to draw and write."
    },
    {
     "q": "Your lesson time is over and Classroom shows \"15 minutes remaining\". What is true for now?",
@@ -491,6 +504,28 @@ window.COURSE = {
     ],
     "a": 1,
     "e": "For now Classroom only shows the notifications (15 minutes, 3 minutes with a countdown, time is up). In about a month it will close automatically, with up to 15 extra minutes after the lesson end."
+   },
+   {
+    "q": "When must you read the Wiki summary of a lesson?",
+    "o": [
+     "Only once, when the course starts",
+     "At least 1 day before the course, and again at least 30 minutes before every lesson",
+     "Only if the student asks a question",
+     "After the lesson, to write the report"
+    ],
+    "a": 1,
+    "e": "The Wiki tells you the goal, the timing and the key slides. Read it the day before the course and again at least 30 minutes before every lesson."
+   },
+   {
+    "q": "The group card in BO shows the course [2249]. A similar course has nicer slides. What do you teach?",
+    "o": [
+     "Only the course [2249] on the group card",
+     "The similar course, if the topic is the same",
+     "A mix of both courses",
+     "Whatever the student prefers"
+    ],
+    "a": 0,
+    "e": "Use ONLY the course code on the group card — never materials from another course."
    }
   ],
   "m2": [
@@ -668,7 +703,8 @@ window.COURSE = {
   "clip-opening": "",
   "clip-explain": "",
   "clip-mistake": "",
-  "clip-individual": ""
+  "clip-individual": "",
+  "clip-closing": ""
  },
  "games": {
   "ask": {
@@ -779,7 +815,7 @@ window.COURSE = {
       ]
      ],
      "mistake": "The student mixes up > and <.",
-     "help": "Compare the amounts first (\"Who has more?\"), then draw Croco's open mouth towards the bigger number with Annotation."
+     "help": "Compare the amounts first (\"Who has more?\"), then draw Croco's open mouth towards the bigger number on the Whiteboard."
     },
     {
      "tag": "Tens and ones · Levels 2–4",
@@ -1212,7 +1248,7 @@ window.COURSE = {
      "tag": "🖼️ Step 2 · Pictorial",
      "img": "assets/img/en/l1-zero.jpg",
      "title": "Then show it in a picture",
-     "text": "Move to the slide, or draw it with Annotation. Foxy dropped her popcorn: the box on the slide is completely empty.",
+     "text": "Move to the slide, or draw it on the Whiteboard. Foxy dropped her popcorn: the box on the slide is completely empty.",
      "say": "\"Look at Foxy's box. How many popcorns are left?\""
     },
     {
@@ -1374,6 +1410,8 @@ window.COURSE = {
      "title": "Before the lesson",
      "svg": "<svg class=\"art\" viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect width=\"400\" height=\"260\" rx=\"18\" fill=\"#F3F6FF\"/><rect x=\"70\" y=\"40\" width=\"260\" height=\"160\" rx=\"10\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"3.5\"/><path d=\"M40 208 h320 l-20 20 h-280Z\" fill=\"#C9D0E3\" stroke=\"#16162B\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><rect x=\"82\" y=\"50\" width=\"74\" height=\"22\" rx=\"6\" fill=\"#FFF3B0\" stroke=\"#16162B\" stroke-width=\"2.5\"/><text x=\"119\" y=\"67\" text-anchor=\"middle\" font-size=\"13\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">BO</text><rect x=\"162\" y=\"50\" width=\"74\" height=\"22\" rx=\"6\" fill=\"#DFF3FF\" stroke=\"#16162B\" stroke-width=\"2.5\"/><text x=\"199\" y=\"67\" text-anchor=\"middle\" font-size=\"13\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">Wiki</text><rect x=\"242\" y=\"50\" width=\"74\" height=\"22\" rx=\"6\" fill=\"#FFE0EF\" stroke=\"#16162B\" stroke-width=\"2.5\"/><text x=\"279\" y=\"67\" text-anchor=\"middle\" font-size=\"13\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">Genially</text><rect x=\"104\" y=\"112\" width=\"40\" height=\"28\" rx=\"5\" fill=\"#16162B\"/><path d=\"M144 120 l14 -8 v28 l-14 -8Z\" fill=\"#16162B\"/><rect x=\"192\" y=\"102\" width=\"18\" height=\"34\" rx=\"9\" fill=\"#16162B\"/><path d=\"M184 124 a17 17 0 0 0 34 0 M201 141 v12 m-10 0 h20\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><path d=\"M266 146 a10 10 0 0 1 20 0\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M256 144 a20 20 0 0 1 40 0\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M246 142 a30 30 0 0 1 60 0\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"276\" cy=\"150\" r=\"5\" fill=\"#16162B\"/><circle cx=\"150\" cy=\"170\" r=\"13\" fill=\"#22B573\" stroke=\"#16162B\" stroke-width=\"2.5\"/><path d=\"M144 170 l4 5 l8 -10\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"222\" cy=\"170\" r=\"13\" fill=\"#22B573\" stroke=\"#16162B\" stroke-width=\"2.5\"/><path d=\"M216 170 l4 5 l8 -10\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"300\" cy=\"170\" r=\"13\" fill=\"#22B573\" stroke=\"#16162B\" stroke-width=\"2.5\"/><path d=\"M294 170 l4 5 l8 -10\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
      "points": [
+      "Check that the materials match the course code of your class group.",
+      "At least 30 minutes before: read the Wiki summary and solve the tasks.",
       "Join early and open the first slide of the presentation.",
       "Check your camera, microphone and internet.",
       "Keep the lesson in BO and the Wiki summary open in other tabs.",
@@ -1396,7 +1434,7 @@ window.COURSE = {
      "svg": "<svg class=\"art\" viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect width=\"400\" height=\"260\" rx=\"18\" fill=\"#F3F6FF\"/><rect x=\"40\" y=\"36\" width=\"320\" height=\"190\" rx=\"12\" fill=\"#2B2D42\" stroke=\"#16162B\" stroke-width=\"3.5\"/><rect x=\"66\" y=\"58\" width=\"220\" height=\"140\" rx=\"12\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"3\"/><rect x=\"106\" y=\"80\" width=\"140\" height=\"14\" rx=\"7\" fill=\"#DDE3F3\"/><rect x=\"126\" y=\"104\" width=\"100\" height=\"10\" rx=\"5\" fill=\"#E9EDF7\"/><path d=\"M80 54 h28 v44 l-14 -10 l-14 10Z\" fill=\"#22B573\" stroke=\"#16162B\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M110 150 q30 -40 60 0 t60 0\" fill=\"none\" stroke=\"#F03D9E\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"236\" cy=\"160\" r=\"22\" fill=\"none\" stroke=\"#F03D9E\" stroke-width=\"5\"/><g transform=\"translate(300 90)\"><circle r=\"26\" fill=\"#C4F046\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M-12 -6 h8 l10 -9 v30 l-10 -9 h-8Z\" fill=\"#16162B\"/><path d=\"M10 -8 q8 8 0 16\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"3\" stroke-linecap=\"round\"/></g><g transform=\"translate(300 170) rotate(30)\"><rect x=\"-6\" y=\"-30\" width=\"12\" height=\"50\" rx=\"3\" fill=\"#F03D9E\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M-6 20 l6 14 l6 -14Z\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"3\" stroke-linejoin=\"round\"/></g></svg>",
      "points": [
       "Share the Genially presentation with sound sharing turned on — many slides have audio (especially in Level 3).",
-      "To show or explain something, draw and write directly on the slide with Annotation in Classroom."
+      "To show or explain something, open the Whiteboard in Classroom and draw or write there — there is no annotation tool on the slide."
      ]
     },
     {
@@ -1442,6 +1480,759 @@ window.COURSE = {
      ]
     }
    ]
+  },
+  "roadmap": {
+   "title": "Your roadmap to the first lesson",
+   "steps": [
+    {
+     "icon": "📅",
+     "when": "1 day before the course",
+     "title": "Prepare",
+     "color": "#4D7CFE",
+     "items": [
+      [
+       "🗂️",
+       "Group card in BO: course code, age, comments"
+      ],
+      [
+       "🎞️",
+       "The whole Genially presentation and the Wiki summary"
+      ]
+     ]
+    },
+    {
+     "icon": "⏰",
+     "when": "30 minutes before",
+     "title": "Get ready",
+     "color": "#F59E0B",
+     "items": [
+      [
+       "📖",
+       "Read the Wiki summary and solve the tasks"
+      ],
+      [
+       "🎥",
+       "Classroom: camera, microphone, sound sharing, student login"
+      ]
+     ]
+    },
+    {
+     "icon": "🎬",
+     "when": "During the lesson",
+     "title": "Follow the plan",
+     "color": "#22B573",
+     "items": [
+      [
+       "🦊",
+       "Start with Foxy and the story, not the rule"
+      ],
+      [
+       "🟢",
+       "Green slides, movement break and individual part — never skipped"
+      ]
+     ]
+    },
+    {
+     "icon": "🏁",
+     "when": "At the end",
+     "title": "Close well",
+     "color": "#F03D9E",
+     "items": [
+      [
+       "💬",
+       "Reflection and closing"
+      ],
+      [
+       "🎁",
+       "A teaser of the next lesson — so the student wants to come back"
+      ]
+     ]
+    }
+   ],
+   "must": {
+    "title": "⚠️ Mandatory before every lesson",
+    "items": [
+     [
+      "🏷️",
+      "Check that the <b>course code</b> of the materials matches the <b>group assigned to you</b>."
+     ],
+     [
+      "📖",
+      "At least <b>30 minutes before</b> the lesson: open the materials, read the Wiki summary and solve the tasks yourself."
+     ],
+     [
+      "🙋",
+      "Something is not clear? <b>Your TD mentor is ready to help</b> — ask before the lesson."
+     ]
+    ]
+   }
+  },
+  "groupcard": {
+   "ui": {
+    "title": "How to read your group card",
+    "sub": "Check these 4 things before every first lesson with a new group. Touch the numbers."
+   },
+   "card": {
+    "name": "BR_ind_215_",
+    "slot": "FRI-15",
+    "course": "[2249]Aventuras Matemáticas Nível 1[2026][5-7][60 min][32 L][Brazil][in progress]",
+    "age": "5-7 years",
+    "total": "0/32",
+    "student": "Ana",
+    "fields": [
+     [
+      "👤",
+      "Tutor",
+      "Your name"
+     ],
+     [
+      "🛠️",
+      "Tech Support",
+      "–"
+     ],
+     [
+      "🏢",
+      "Business Branch",
+      "Brazil"
+     ],
+     [
+      "🔻",
+      "AMO Funnel",
+      "Brazil Pipeline"
+     ],
+     [
+      "🌐",
+      "Language",
+      "Portuguese"
+     ],
+     [
+      "🕒",
+      "Timezone",
+      "America/Sao_Paulo"
+     ]
+    ],
+    "right": [
+     [
+      "🏷️",
+      "[19] Individual group | short"
+     ],
+     [
+      "👥",
+      "1 students"
+     ],
+     [
+      "⏱️",
+      "60 minutes"
+     ]
+    ],
+    "tabs": [
+     "Students",
+     "Schedule",
+     "Check"
+    ],
+    "list": "List of students",
+    "comments": "Comments",
+    "nodesc": "No description"
+   },
+   "notes": [
+    {
+     "n": 1,
+     "c": "#2563EB",
+     "title": "Group name",
+     "text": "Your group's code. The last part shows the day and start time: FRI-15 = Friday, 15:00."
+    },
+    {
+     "n": 2,
+     "c": "#DC2626",
+     "title": "Course materials",
+     "text": "The exact course you must teach in this group.",
+     "warn": "<b>Use ONLY this course code.</b> Never use materials from any other course, even if it looks similar."
+    },
+    {
+     "n": 3,
+     "c": "#16A34A",
+     "title": "Age range",
+     "text": "How old your students are. Adapt your language, pace and examples to this age."
+    },
+    {
+     "n": 4,
+     "c": "#7C3AED",
+     "title": "Comments",
+     "text": "Notes from the TL or CS team about the students in this group. <b>Read them before the lesson.</b>"
+    }
+   ]
+  },
+  "rules": {
+   "ui": {
+    "prev": "← Back",
+    "next": "Next →",
+    "of": "Rule {n} / {total}",
+    "try": "⚠️ Avoid this",
+    "again": "↺ Start again"
+   },
+   "cards": [
+    {
+     "tag": "1 · Preparation",
+     "img": "assets/img/en/g-green.jpg",
+     "title": "Prepare at least 1 day before",
+     "text": "Before the course starts, go through the whole Genially presentation, solve every task and read the Wiki summary of the lesson. The plan must be 100% clear to you.",
+     "say": "Opening the presentation for the first time during the lesson."
+    },
+    {
+     "tag": "2 · Wiki",
+     "svg": "<svg class=\"art\" viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect width=\"400\" height=\"260\" rx=\"18\" fill=\"#F3F6FF\"/><path d=\"M60 60 q70 -20 140 0 v150 q-70 -20 -140 0Z\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><path d=\"M200 60 q70 -20 140 0 v150 q-70 -20 -140 0Z\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><path d=\"M80 90 h100\" stroke=\"#C9D0E3\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M80 112 h92\" stroke=\"#C9D0E3\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M80 134 h84\" stroke=\"#C9D0E3\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M80 156 h76\" stroke=\"#C9D0E3\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M220 90 h100\" stroke=\"#C9D0E3\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M220 112 h92\" stroke=\"#C9D0E3\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M220 134 h84\" stroke=\"#C9D0E3\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M220 156 h76\" stroke=\"#C9D0E3\" stroke-width=\"6\" stroke-linecap=\"round\"/><g transform=\"translate(330 70)\"><circle r=\"40\" fill=\"#FFD66B\" stroke=\"#16162B\" stroke-width=\"3.5\"/><path d=\"M0 -26 v26 l16 10\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"4\" stroke-linecap=\"round\"/></g><text x=\"330\" y=\"140\" text-anchor=\"middle\" font-size=\"24\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">30'</text></svg>",
+     "title": "The Wiki is your most powerful tool",
+     "text": "The Wiki summary tells you what each lesson teaches, the timing and what to do on the key slides. Read it at least 30 minutes before every lesson.",
+     "say": "Teaching without reading the Wiki and missing key stages."
+    },
+    {
+     "tag": "3 · Opening",
+     "img": "assets/img/en/foxy.jpg",
+     "title": "Open with Foxy and the story",
+     "text": "Start from the story and a real problem — not from the rule.",
+     "say": "Starting with the rule and skipping the story."
+    },
+    {
+     "tag": "4 · Stages",
+     "img": "assets/img/en/g-green.jpg",
+     "title": "Follow the lesson stages",
+     "text": "Run the lesson in the order of the presentation and the Wiki. Green slides are mandatory — never skip them.",
+     "say": "Skipping key stages of the lesson."
+    },
+    {
+     "tag": "5 · Never skip",
+     "img": "assets/img/en/l1-move.jpg",
+     "title": "Movement break and individual part stay",
+     "text": "Never skip the movement break. In the individual part (Levels 1–3 from Lesson 6, Level 4 always) the student works alone on the platform.",
+     "say": "Cutting the movement break to save time — the student gets tired."
+    },
+    {
+     "tag": "6 · Questions",
+     "svg": "<svg class=\"art\" viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect width=\"400\" height=\"260\" rx=\"18\" fill=\"#F3F6FF\"/><circle cx=\"90\" cy=\"150\" r=\"44\" fill=\"#FFE0C2\" stroke=\"#16162B\" stroke-width=\"3.5\"/><circle cx=\"76\" cy=\"144\" r=\"5\" fill=\"#16162B\"/><circle cx=\"104\" cy=\"144\" r=\"5\" fill=\"#16162B\"/><path d=\"M78 166 q12 12 24 0\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M50 120 q40 -50 80 0\" fill=\"#6B3E26\"/><path d=\"M160 40 h200 a16 16 0 0 1 16 16 v86 a16 16 0 0 1 -16 16 h-150 l-36 26 l8 -26 h-22 a16 16 0 0 1 -16 -16 v-86 a16 16 0 0 1 16 -16Z\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"200\" cy=\"80\" r=\"13\" fill=\"#FFD66B\" stroke=\"#B5651D\" stroke-width=\"2.5\"/><text x=\"200\" y=\"86\" text-anchor=\"middle\" font-size=\"16\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">1</text><circle cx=\"240\" cy=\"80\" r=\"13\" fill=\"#FFD66B\" stroke=\"#B5651D\" stroke-width=\"2.5\"/><text x=\"240\" y=\"86\" text-anchor=\"middle\" font-size=\"16\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">2</text><circle cx=\"280\" cy=\"80\" r=\"13\" fill=\"#FFD66B\" stroke=\"#B5651D\" stroke-width=\"2.5\"/><text x=\"280\" y=\"86\" text-anchor=\"middle\" font-size=\"16\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">3</text><circle cx=\"320\" cy=\"80\" r=\"13\" fill=\"#FFD66B\" stroke=\"#B5651D\" stroke-width=\"2.5\"/><text x=\"320\" y=\"86\" text-anchor=\"middle\" font-size=\"16\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">4</text><circle cx=\"220\" cy=\"122\" r=\"13\" fill=\"#FFD66B\" stroke=\"#B5651D\" stroke-width=\"2.5\"/><text x=\"220\" y=\"128\" text-anchor=\"middle\" font-size=\"16\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">5</text><circle cx=\"260\" cy=\"122\" r=\"13\" fill=\"#FFD66B\" stroke=\"#B5651D\" stroke-width=\"2.5\"/><text x=\"260\" y=\"128\" text-anchor=\"middle\" font-size=\"16\" fill=\"#16162B\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">6</text><path d=\"M184 80 h-8 v42 h22\" fill=\"none\" stroke=\"#0EA5E9\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>",
+     "title": "Questions before answers",
+     "text": "Give hints with guiding questions. Show the answer only after the student has tried.",
+     "say": "Giving the answer straight away."
+    },
+    {
+     "tag": "7 · Whiteboard",
+     "svg": "<svg class=\"art\" viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect width=\"400\" height=\"260\" rx=\"18\" fill=\"#F3F6FF\"/><rect x=\"50\" y=\"30\" width=\"300\" height=\"170\" rx=\"10\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"5\"/><path d=\"M120 200 l-20 44 M280 200 l20 44\" stroke=\"#16162B\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M80 150 h220\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M90 142 v16\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M130 142 v16\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M170 142 v16\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M210 142 v16\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M250 142 v16\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M290 142 v16\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M130 150 q40 -60 80 0\" fill=\"none\" stroke=\"#0EA5E9\" stroke-width=\"4\" stroke-dasharray=\"7 6\"/><text x=\"170\" y=\"92\" text-anchor=\"middle\" font-size=\"26\" fill=\"#0EA5E9\" style=\"font-family:Nunito,system-ui,sans-serif;font-weight:900\">+4</text><g transform=\"translate(320 70) rotate(35)\"><rect x=\"-9\" y=\"-34\" width=\"18\" height=\"56\" rx=\"4\" fill=\"#F03D9E\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M-9 22 l9 14 l9 -14Z\" fill=\"#fff\" stroke=\"#16162B\" stroke-width=\"3\" stroke-linejoin=\"round\"/></g></svg>",
+     "title": "There is no annotation tool",
+     "text": "To draw or explain something, use the Whiteboard in Classroom.",
+     "say": "Looking for an annotation pen on the slide and losing time."
+    },
+    {
+     "tag": "8 · Help",
+     "svg": "<svg class=\"art\" viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect width=\"400\" height=\"260\" rx=\"18\" fill=\"#F3F6FF\"/><circle cx=\"140\" cy=\"130\" r=\"58\" fill=\"#FFE0C2\" stroke=\"#16162B\" stroke-width=\"3.5\"/><path d=\"M78 130 a62 62 0 0 1 124 0\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"10\"/><rect x=\"66\" y=\"118\" width=\"22\" height=\"40\" rx=\"8\" fill=\"#0EA5E9\" stroke=\"#16162B\" stroke-width=\"3\"/><rect x=\"192\" y=\"118\" width=\"22\" height=\"40\" rx=\"8\" fill=\"#0EA5E9\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M203 158 q0 34 -40 36\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"4\"/><circle cx=\"158\" cy=\"194\" r=\"7\" fill=\"#16162B\"/><circle cx=\"122\" cy=\"124\" r=\"5\" fill=\"#16162B\"/><circle cx=\"158\" cy=\"124\" r=\"5\" fill=\"#16162B\"/><path d=\"M126 150 q14 12 28 0\" fill=\"none\" stroke=\"#16162B\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><g transform=\"translate(300 130) rotate(-40)\"><rect x=\"-8\" y=\"-10\" width=\"16\" height=\"90\" rx=\"6\" fill=\"#9AA3B8\" stroke=\"#16162B\" stroke-width=\"3\"/><path d=\"M-22 -50 a24 24 0 1 0 44 0 l-10 0 v18 h-24 v-18Z\" fill=\"#9AA3B8\" stroke=\"#16162B\" stroke-width=\"3\" stroke-linejoin=\"round\"/></g></svg>",
+     "title": "In doubt? Ask before the lesson",
+     "text": "If something about the course, the materials or the method is not clear, ask your regional TD mentor before the lesson.",
+     "say": "Improvising instead of asking."
+    }
+   ]
+  },
+  "rightwrong": {
+   "ui": {
+    "good": "✅ Right",
+    "bad": "❌ Wrong",
+    "next": "Next →",
+    "right": "✅ Correct!",
+    "wrong": "❌ Not quite.",
+    "progress": "{n} of {total}",
+    "done": "You judged {score} of {total} situations correctly. These are the rules behind them:",
+    "again": "↺ Play again",
+    "habit": "Rule"
+   },
+   "habits": [
+    [
+     "📅",
+     "Prepare 1 day before"
+    ],
+    [
+     "📖",
+     "Read the Wiki"
+    ],
+    [
+     "🦊",
+     "Story first"
+    ],
+    [
+     "🟢",
+     "Follow the stages"
+    ],
+    [
+     "🤸",
+     "Never skip break and individual part"
+    ],
+    [
+     "🖍️",
+     "Whiteboard"
+    ],
+    [
+     "🙋",
+     "Ask your TD mentor"
+    ]
+   ],
+   "cards": [
+    [
+     "The tutor opens the Genially presentation for the first time when the lesson starts.",
+     false,
+     0,
+     "Go through the whole presentation and solve every task at least 1 day before."
+    ],
+    [
+     "10 minutes before class, the tutor reads the Wiki summary of the lesson again.",
+     true,
+     1,
+     "The Wiki tells you the goal, the timing and what to do on the key slides."
+    ],
+    [
+     "The tutor starts the lesson by writing the rule for adding on the slide.",
+     false,
+     2,
+     "Start with Foxy and the story — a real problem first, then the rule."
+    ],
+    [
+     "Time is short, so the tutor skips two green slides.",
+     false,
+     3,
+     "Green slides are mandatory. Skip the extra activities instead."
+    ],
+    [
+     "The student is tired; the tutor does the movement break with them.",
+     true,
+     4,
+     "The movement break is never skipped — it gives energy for the rest of the lesson."
+    ],
+    [
+     "The tutor explains tens and ones by drawing on the Whiteboard.",
+     true,
+     5,
+     "There is no annotation tool — the Whiteboard is the right place."
+    ],
+    [
+     "The tutor is not sure how to run the individual part and improvises.",
+     false,
+     6,
+     "Ask your regional TD mentor before the lesson."
+    ]
+   ]
+  },
+  "pledge": {
+   "title": "✍️ My commitment",
+   "sub": "Tick every line. The module check opens when all are ticked.",
+   "done": "🎉 Done! The module check is open.",
+   "left": "{k} of {total} ticked",
+   "items": [
+    "Before every lesson I check that the course code of the materials matches the group assigned to me.",
+    "At least 30 minutes before every lesson I open the presentation, read the Wiki summary and solve the tasks.",
+    "I follow the lesson stages: story first, green slides, movement break and individual part — nothing skipped.",
+    "When something is not clear, I ask my TD mentor before the lesson."
+   ]
+  }
+ },
+ "clips": {
+  "ui": {
+   "sound": "🔊 Turn on the sound",
+   "again": "↺ Watch again",
+   "region": "Real lesson recording · {src} · {lvl} · spoken in {lang}",
+   "subs": "Subtitles translated into English",
+   "nosubs": "No subtitles: watch the flow of the lesson",
+   "focus": "Focus on",
+   "clip": "Clip",
+   "tutor": "Tutor",
+   "student": "Student",
+   "play": "▶ Play the clip"
+  },
+  "items": {
+   "clip-explain": {
+    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
+    "start": 650,
+    "end": 856,
+    "auto": true,
+    "title": "Starting from the children's world: Minecraft vs Roblox",
+    "focus": "Before any rule, the tutor shows the YouTube subscribers of two games the children love, asks for their opinion, and lets them discover that the bigger number wins. Then she links the skill to daily life (which shop is closer, which game you play most).",
+    "region": "Real lesson recording · Indonesia · group lesson · Level 4 · spoken in Indonesian",
+    "subs": [
+     [
+      653.9,
+      661.9,
+      "T",
+      "To start, here are the YouTube channels of Minecraft and Roblox."
+     ],
+     [
+      661.9,
+      670.9,
+      "T",
+      "Look here: these are Minecraft's subscribers."
+     ],
+     [
+      674.9,
+      680.9,
+      "T",
+      "Minecraft has 13.3 million subscribers."
+     ],
+     [
+      680.9,
+      690.9,
+      "T",
+      "A lot, right? And Roblox has 5.32 million subscribers."
+     ],
+     [
+      690.9,
+      697.9,
+      "T",
+      "Which one do you think is the most famous — Minecraft or Roblox?"
+     ],
+     [
+      697.9,
+      699.9,
+      "S",
+      "Roblox!"
+     ],
+     [
+      699.9,
+      701.9,
+      "T",
+      "Really?"
+     ],
+     [
+      711.9,
+      719.9,
+      "T",
+      "Maybe you play Roblox more often… Have you ever played Minecraft?"
+     ],
+     [
+      719.9,
+      725.9,
+      "S",
+      "Yes… I play it with my friends."
+     ],
+     [
+      751.4,
+      760.8,
+      "T",
+      "Now the question is: which channel is the most famous according to these numbers?"
+     ],
+     [
+      770.2,
+      784.5,
+      "T",
+      "Minecraft 13.3 million, Roblox 5.32 million. So who has more subscribers?"
+     ],
+     [
+      789.0,
+      793.0,
+      "S",
+      "Minecraft!"
+     ],
+     [
+      793.0,
+      806.0,
+      "T",
+      "Looking at the numbers, the biggest is Minecraft. You just compared numbers!"
+     ],
+     [
+      810.0,
+      832.5,
+      "T",
+      "When you can compare numbers, you can compare many things — which shop is closer to home, which game you play the most…"
+     ],
+     [
+      832.5,
+      837.0,
+      "T",
+      "Let me ask: which game do you play the most?"
+     ],
+     [
+      840.0,
+      845.0,
+      "S",
+      "Roblox."
+     ],
+     [
+      845.0,
+      855.0,
+      "T",
+      "The same! You just compared all your games — and the one you play most is Roblox."
+     ]
+    ]
+   },
+   "clip-mistake": {
+    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
+    "start": 1866,
+    "end": 1964,
+    "auto": true,
+    "title": "A wrong sign: \"Let's check\" instead of \"wrong\"",
+    "focus": "The student chooses the wrong sign. The tutor never says \"wrong\": she says \"let's check\", guides step by step (digits → first digit → bigger or smaller), asks \"Are you sure?\" and gives a visual hint, so the student corrects herself — then praises her.",
+    "region": "Real lesson recording · Indonesia · group lesson · Level 4 · spoken in Indonesian",
+    "subs": [
+     [
+      1871.3,
+      1878.0,
+      "T",
+      "Let's start with you. Which answer is it — A or B?"
+     ],
+     [
+      1879.6,
+      1883.0,
+      "S",
+      "B."
+     ],
+     [
+      1883.7,
+      1889.1,
+      "T",
+      "B? Okay, let's check. How many digits does this number have?"
+     ],
+     [
+      1890.6,
+      1892.2,
+      "S",
+      "Four."
+     ],
+     [
+      1892.7,
+      1895.1,
+      "T",
+      "Four? And the number on the right?"
+     ],
+     [
+      1897.7,
+      1898.4,
+      "S",
+      "Four."
+     ],
+     [
+      1898.9,
+      1909.9,
+      "T",
+      "The same, so we compare the digits. The first digit: is it the same or different?"
+     ],
+     [
+      1910.9,
+      1911.9,
+      "S",
+      "Different."
+     ],
+     [
+      1912.9,
+      1917.9,
+      "T",
+      "We read from the left: is 1 bigger or smaller than 5?"
+     ],
+     [
+      1918.9,
+      1920.9,
+      "S",
+      "Smaller."
+     ],
+     [
+      1920.9,
+      1925.2,
+      "T",
+      "Then which sign is it — A or B?"
+     ],
+     [
+      1925.2,
+      1926.2,
+      "S",
+      "B."
+     ],
+     [
+      1927.2,
+      1928.6,
+      "T",
+      "Are you sure?"
+     ],
+     [
+      1930.2,
+      1946.6,
+      "T",
+      "Let's use our imagination: draw a line in front of it… If it is smaller, which sign is it?"
+     ],
+     [
+      1946.6,
+      1956.8,
+      "S",
+      "This one. Let's send it."
+     ],
+     [
+      1956.8,
+      1963.4,
+      "T",
+      "Good job!"
+     ]
+    ]
+   },
+   "clip-individual": {
+    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
+    "start": 3984,
+    "end": 4224,
+    "auto": true,
+    "title": "The individual part: clear steps, then the students work alone",
+    "focus": "The tutor gives clear steps to open the task and share the screen, turns the microphones off so the students can focus, checks each screen and only reminds them of the method — she does not solve the tasks. (In Brazil the student opens Genially through the Kodland platform and clicks the green button.)",
+    "region": "Real lesson recording · Indonesia · group lesson · Level 4 · spoken in Indonesian",
+    "subs": [
+     [
+      3987.4,
+      3995.0,
+      "T",
+      "Now the individual task. How many questions are there today?"
+     ],
+     [
+      3995.0,
+      4007.6,
+      "T",
+      "Seven questions. Click the assignment, then share your screen."
+     ],
+     [
+      4051.9,
+      4064.9,
+      "T",
+      "One student is already sharing. Let's go — open \"Comparing and ordering big numbers\"."
+     ],
+     [
+      4073.9,
+      4078.9,
+      "T",
+      "I'll turn off your microphones so you can focus."
+     ],
+     [
+      4087.0,
+      4099.0,
+      "T",
+      "If it's still loading, wait. Type the password to enter, then open the individual task."
+     ],
+     [
+      4106.2,
+      4109.2,
+      "T",
+      "Please share your screen again."
+     ],
+     [
+      4119.6,
+      4134.3,
+      "T",
+      "Click on an empty area… Okay, now send the answer at the bottom."
+     ],
+     [
+      4139.2,
+      4157.2,
+      "T",
+      "Let me check each of you… Let's go — click start."
+     ],
+     [
+      4187.1,
+      4223.4,
+      "T",
+      "Do it like before: first compare the digits; if they are the same, compare the numbers."
+     ]
+    ]
+   },
+   "clip-closing": {
+    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
+    "start": 5062,
+    "end": 5296,
+    "auto": true,
+    "title": "A consistent closing: feelings, review, teaser, weekly challenge",
+    "focus": "The tutor asks how the tasks went and which part was hard, reassures the student, lets the children say what they learned, gives a teaser of the next lesson, reminds them of the weekly challenge (Level 4) and ends with a happy moment.",
+    "region": "Real lesson recording · Indonesia · group lesson · Level 4 · spoken in Indonesian",
+    "subs": [
+     [
+      5064.7,
+      5077.1,
+      "T",
+      "Turn on your microphone. Were the questions easy or hard?"
+     ],
+     [
+      5077.1,
+      5083.0,
+      "S",
+      "Some were hard."
+     ],
+     [
+      5086.1,
+      5094.1,
+      "T",
+      "Which part was hard — comparing, ordering or the word problems?"
+     ],
+     [
+      5094.1,
+      5097.0,
+      "S",
+      "The word problems."
+     ],
+     [
+      5100.6,
+      5111.5,
+      "T",
+      "That's okay — we've only just started. In the next lessons you'll practise more and get used to them."
+     ],
+     [
+      5135.0,
+      5142.0,
+      "T",
+      "So, what did we do in today's lesson? Who remembers?"
+     ],
+     [
+      5142.4,
+      5144.4,
+      "S",
+      "Comparing."
+     ],
+     [
+      5144.4,
+      5159.8,
+      "T",
+      "Comparing — and then ordering. Comparing and ordering big numbers."
+     ],
+     [
+      5159.8,
+      5163.2,
+      "T",
+      "And at the end, which tasks did we do?"
+     ],
+     [
+      5163.3,
+      5170.3,
+      "S",
+      "Word problems."
+     ],
+     [
+      5170.3,
+      5178.3,
+      "T",
+      "Great! So we learned 3 things today."
+     ],
+     [
+      5181.3,
+      5213.3,
+      "T",
+      "Next week we'll learn to add and subtract big numbers, solve Foxy's logic puzzles and put it all together in a word problem."
+     ],
+     [
+      5258.4,
+      5279.9,
+      "T",
+      "For Module 1, Lesson 3 there is homework: the weekly challenge on comparing and ordering big numbers — try it for practice."
+     ],
+     [
+      5285.6,
+      5293.1,
+      "T",
+      "Did you enjoy the class? Show me two thumbs up!"
+     ]
+    ]
+   },
+   "teach": {
+    "src": "https://d1tngwebo1bj0u.cloudfront.net/b49eac95-a443-439a-ac49-597057f034b7_2026-11-07_02:50:08_Pd6LcxKiv.mp4",
+    "start": 180,
+    "end": 5346,
+    "auto": false,
+    "title": "A full lesson: comparing and ordering big numbers",
+    "focus": "A complete Level 4 lesson (a 90-minute group lesson, so longer than a Brazil 1-on-1 lesson). Follow the flow: warm opening (~3–10 min), today's goals with Foxy (~10), a real-world opener (~11–14), place value review (~14–19), the method and guided practice (~19–39), word problems (~39–52), extra logic puzzles (~52–64), an eye-exercise break (~64–66), the individual part (~66–84) and the closing with a teaser (~84–89).",
+    "region": "Real lesson recording · Indonesia · group lesson · Level 4 · spoken in Indonesian",
+    "subs": []
+   }
   }
  },
  "videoNotes": {
@@ -1455,7 +2246,7 @@ window.COURSE = {
   },
   "clip-explain": {
    "title": "Clip: explaining an idea",
-   "text": "1–3 minutes: the tutor explains zero (Foxy's empty popcorn box) going from a real object to the slide to the written 0, thinking aloud and using Annotation."
+   "text": "1–3 minutes: the tutor explains zero (Foxy's empty popcorn box) going from a real object to the slide to the written 0, thinking aloud and drawing on the Whiteboard."
   },
   "clip-mistake": {
    "title": "Clip: handling a wrong answer",
@@ -1480,6 +2271,9 @@ window.COURSE = {
    "badge": "Simulation 2 of 2",
    "title": "Classroom lesson guide",
    "text": "A guided tour of the first cards of Level 5, Lesson 1 in Classroom: the cards in Assignments, the Teacher notes only you see, the Slide for the tutor, Lead the group and a scored card with automatic checking."
+  },
+  "pledge": {
+   "title": "Commitment checklist"
   }
  }
 };
